@@ -1,17 +1,26 @@
 [
   {
-    "productCode": "NAY",
-    "measureIds": ["mortality", "complications"],
-    "rationale": "Cardiovascular implant clearances and recalls can be compared against hospital mortality and complication trends at a high level."
+    "productCode": "FRN",
+    "measureIds": [
+      "complications",
+      "readmissions"
+    ],
+    "rationale": "Infusion pump recalls and adverse-event reports are displayed next to CMS safety and readmission content because medication-delivery device failures can affect inpatient safety workflows."
   },
   {
-    "productCode": "DXL",
-    "measureIds": ["complications", "readmissions"],
-    "rationale": "Stapler recalls may align heuristically with surgical complication and readmission narratives."
+    "productCode": "QSN",
+    "measureIds": [
+      "complications",
+      "mortality"
+    ],
+    "rationale": "Joint infection diagnostic device activity is shown with complications and mortality context because infections and delayed diagnosis can affect surgical outcomes."
   },
   {
     "productCode": "MNH",
-    "measureIds": ["readmissions", "patientExperience"],
-    "rationale": "Monitoring technology adoption can be explored against readmission management and patient-centered care trends."
+    "measureIds": [
+      "readmissions",
+      "complications"
+    ],
+    "rationale": "Spinal fixation device activity is shown with readmission and complication context because orthopedic implants can influence post-surgical complications and return visits."
   }
 ]

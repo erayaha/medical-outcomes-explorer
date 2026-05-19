@@ -2,25 +2,26 @@ import Link from "next/link";
 import { LiveDeviceFeed } from "@/components/live-device-feed";
 import { TrendChart } from "@/components/trend-chart";
 import { keywordMap } from "@/lib/site-config";
-import { getDevices } from "@/lib/site-data";
+import { getDevices, getSnapshotMeta } from "@/lib/site-data";
 
 export const metadata = {
   title: "FDA medical device clearance explorer",
   description:
-    "Explore static device class pages plus live openFDA 510(k) samples with localStorage caching for refreshable device research.",
+    "Explore tracked openFDA product-code pages plus live 510(k) records with localStorage caching for browser refreshes.",
   keywords: keywordMap.devices,
 };
 
 export default function DevicesPage() {
   const devices = getDevices();
+  const snapshotMeta = getSnapshotMeta();
 
   return (
     <div className="container page-stack">
       <section className="page-header">
         <p className="eyebrow">Devices & FDA</p>
-        <h1>Explore FDA 510(k) device clearance timelines</h1>
+        <h1>Explore tracked FDA 510(k), recall, and adverse-event timelines</h1>
         <p className="lede">
-          Product-code detail pages are pre-rendered for SEO, while the live panel below demonstrates key-free openFDA fetching with client-side caching.
+          The product-code pages below are pre-rendered from the committed openFDA snapshot. Live 510(k) records are also available in the browser panel. Snapshot generated {new Date(snapshotMeta.generatedAt).toLocaleDateString("en-US", { dateStyle: "long" })}.
         </p>
       </section>
       <section className="grid-three">
@@ -28,7 +29,7 @@ export default function DevicesPage() {
           <article key={device.productCode} className="panel stack-gap">
             <h2>{device.deviceClass}</h2>
             <p>{device.summary}</p>
-            <TrendChart title={`${device.productCode} clearances`} series={device.clearanceTimeline} dataKey="clearances" color="#9333ea" />
+            <TrendChart title={`${device.productCode} yearly FDA counts`} series={device.clearanceTimeline} dataKey="clearances" color="#9333ea" valueFormatter={(value) => `${value}`} />
             <Link href={`/devices-fda/${device.productCode}`}>View product code {device.productCode} →</Link>
           </article>
         ))}

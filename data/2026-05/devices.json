@@ -1,53 +1,180 @@
 [
   {
-    "productCode": "NAY",
-    "slug": "fda-510k-product-code-nay",
-    "deviceClass": "Transcatheter heart valve systems",
-    "manufacturerExamples": ["Edwards Lifesciences", "Medtronic"],
-    "summary": "Cardiovascular implant class used here to explore whether clearance and recall activity coincides with complication and mortality trends.",
-    "clearanceTimeline": [
-      { "period": "2022", "clearances": 6, "recalls": 1, "events": 118 },
-      { "period": "2023", "clearances": 8, "recalls": 0, "events": 132 },
-      { "period": "2024", "clearances": 10, "recalls": 1, "events": 140 }
+    "productCode": "FRN",
+    "slug": "fda-510k-product-code-frn",
+    "deviceClass": "Pump, Infusion",
+    "medicalSpecialty": "General Hospital",
+    "manufacturerExamples": [
+      "Koru Medical Systems, Inc.",
+      "CareFusion 303, Inc.",
+      "MEDTRONIC PUERTO RICO OPERATIONS CO."
     ],
+    "summary": "Product code FRN is represented in current FDA records by Koru Medical Systems, Inc.. The latest 510(k) activity in this snapshot is dated 2026-01-28, the latest recall activity is dated 2026-02-11, and the latest adverse-event report is dated 20260430.",
+    "latest510k": {
+      "kNumber": "K252015",
+      "deviceName": "FreedomEdge Infusion System; High-Flo SubQ Needle Set; Precision Flow Rate Tubing",
+      "applicant": "Koru Medical Systems, Inc.",
+      "advisoryCommittee": "General Hospital",
+      "decisionDate": "2026-01-28",
+      "receivedDate": "2025-06-27"
+    },
     "latestRecall": {
-      "date": "2024-11-14",
-      "reason": "Potential delivery system deployment issue",
-      "classification": "Class II"
-    }
+      "date": "2026-02-11",
+      "postedDate": "2026-03-26",
+      "reason": "Due to product labeling not indicating which Transport Layer Security (TLS) version that must be enabled on hospital network to ensure secure Wi-Fi communication with Point-of-Care Units",
+      "classification": "Open, Classified",
+      "firm": "CareFusion 303, Inc.",
+      "productDescription": "BD Alaris\" System with Guardrails\" Suite MX with Point of Care Unit"
+    },
+    "latestEvent": {
+      "dateReceived": "20260430",
+      "dateOfEvent": "20260422",
+      "eventType": "Malfunction",
+      "manufacturer": "MEDTRONIC PUERTO RICO OPERATIONS CO.",
+      "brandName": "RESERVOIR 3ML MMT-332A",
+      "genericName": "PUMP, INFUSION",
+      "productProblems": [
+        "Fluid/Blood Leak",
+        "Improper Flow or Infusion"
+      ]
+    },
+    "clearanceTimeline": [
+      {
+        "period": "2024",
+        "clearances": 8,
+        "events": 57731,
+        "recalls": 36
+      },
+      {
+        "period": "2025",
+        "clearances": 4,
+        "events": 53488,
+        "recalls": 40
+      },
+      {
+        "period": "2026",
+        "clearances": 0,
+        "events": 17539,
+        "recalls": 2
+      }
+    ]
   },
   {
-    "productCode": "DXL",
-    "slug": "fda-510k-product-code-dxl",
-    "deviceClass": "Laparoscopic surgical staplers",
-    "manufacturerExamples": ["Intuitive Surgical", "Medtronic"],
-    "summary": "Procedure-support device class tied heuristically to complication monitoring for abdominal and thoracic surgery pathways.",
-    "clearanceTimeline": [
-      { "period": "2022", "clearances": 9, "recalls": 1, "events": 85 },
-      { "period": "2023", "clearances": 11, "recalls": 2, "events": 104 },
-      { "period": "2024", "clearances": 13, "recalls": 1, "events": 99 }
+    "productCode": "QSN",
+    "slug": "fda-510k-product-code-qsn",
+    "deviceClass": "Orthopedic Infection Microbial Multiplex Nucleic Acid Detection System",
+    "medicalSpecialty": "Microbiology",
+    "manufacturerExamples": [
+      "Biofire Diagnostics, LLC",
+      "BioFire Diagnostics, LLC",
+      "BIOFIRE DIAGNOSTICS, LLC"
     ],
+    "summary": "Product code QSN is represented in current FDA records by Biofire Diagnostics, LLC. The latest 510(k) activity in this snapshot is dated 2022-04-29, the latest recall activity is dated 2026-04-22, and the latest adverse-event report is dated 20260401.",
+    "latest510k": {
+      "kNumber": "DEN200066",
+      "deviceName": "BioFire Joint Infection (JI) Panel",
+      "applicant": "Biofire Diagnostics, LLC",
+      "advisoryCommittee": "Microbiology",
+      "decisionDate": "2022-04-29",
+      "receivedDate": "2020-10-27"
+    },
     "latestRecall": {
-      "date": "2024-08-02",
-      "reason": "Incomplete staple line formation in a subset of lots",
-      "classification": "Class I"
-    }
+      "date": "2026-04-22",
+      "postedDate": "2026-05-06",
+      "reason": "Contamination to in-vitro diagnostic test   may result in false positives.",
+      "classification": "Open, Classified",
+      "firm": "BioFire Diagnostics, LLC",
+      "productDescription": "BioFire Joint Infection (JI) Panel\nREF: RFIT-ASY-0138, 30 test Kit."
+    },
+    "latestEvent": {
+      "dateReceived": "20260401",
+      "dateOfEvent": "20251127",
+      "eventType": "Malfunction",
+      "manufacturer": "BIOFIRE DIAGNOSTICS, LLC",
+      "brandName": "BIOFIRE JOINT INFECTION PANEL",
+      "genericName": "BIOFIRE JOINT INFECTION PANEL",
+      "productProblems": [
+        "False Positive Result"
+      ]
+    },
+    "clearanceTimeline": [
+      {
+        "period": "2024",
+        "clearances": 0,
+        "events": 0,
+        "recalls": 0
+      },
+      {
+        "period": "2025",
+        "clearances": 0,
+        "events": 0,
+        "recalls": 0
+      },
+      {
+        "period": "2026",
+        "clearances": 0,
+        "events": 3,
+        "recalls": 1
+      }
+    ]
   },
   {
     "productCode": "MNH",
     "slug": "fda-510k-product-code-mnh",
-    "deviceClass": "Continuous glucose monitoring systems",
-    "manufacturerExamples": ["Dexcom", "Abbott"],
-    "summary": "Monitoring technology class included to show how device adoption timelines can be compared with readmission and patient experience trends.",
-    "clearanceTimeline": [
-      { "period": "2022", "clearances": 5, "recalls": 0, "events": 61 },
-      { "period": "2023", "clearances": 7, "recalls": 0, "events": 66 },
-      { "period": "2024", "clearances": 8, "recalls": 1, "events": 74 }
+    "deviceClass": "Orthosis, Spondylolisthesis Spinal Fixation",
+    "medicalSpecialty": "Orthopedic",
+    "manufacturerExamples": [
+      "L&K BIOMED Co., Ltd.",
+      "XTANT MEDICAL INC",
+      "GLOBUS MEDICAL, INC."
     ],
+    "summary": "Product code MNH is represented in current FDA records by L&K BIOMED Co., Ltd.. The latest 510(k) activity in this snapshot is dated 2016-11-03, the latest recall activity is dated 2017-04-12, and the latest adverse-event report is dated 20260427.",
+    "latest510k": {
+      "kNumber": "K162801",
+      "deviceName": "CastleLoc Spinal Fixation System",
+      "applicant": "L&K BIOMED Co., Ltd.",
+      "advisoryCommittee": "Orthopedic",
+      "decisionDate": "2016-11-03",
+      "receivedDate": "2016-10-05"
+    },
     "latestRecall": {
-      "date": "2024-12-09",
-      "reason": "Software alert suppression under specific battery conditions",
-      "classification": "Class II"
-    }
+      "date": "2017-04-12",
+      "postedDate": "2017-04-27",
+      "reason": "The material type on the label may incorrectly state Ti6Al-4V ELI. The rods are composed of Cobalt Chromium.",
+      "classification": "Terminated",
+      "firm": "XTANT MEDICAL INC",
+      "productDescription": "5.5mm Diameter x 500mm CoCr Straight Rod, Model number X077-0420.  The product is packaged in plastic bags with one piece per bag.\n\nProduct Usage:\nThe 5.5mm dia. X 500 mm CoCr Straight Rod is an accessory to the Fortex Pedicle Screw System. It is a straight rod connected between two or more pedicle screws to create a pedicle screw construct. Indications for Use: The Fortex Pedicle Screw System is indicated for the treatment of severe spondylolisthesis (Grade 3 and 4) of the L5-S1 vertebra in skeletally mature patients receiving fusion by autogenous bone graft having implants attached to the lumbar and sacral spine (L3 to sacrum) with removal of the implants after the attainment of a solid fusion. In addition, the system is intended to provide immobilization and stabilization of spinal segments in skeletally mature patients as an adjunct to fusion in the treatment of the following acute and chronic instabilities or deformities of the thoracic, lumbar and sacral spine: degenerative spondylolisthesis with objective evidence of neurological impairment, fracture, dislocation, scoliosis, kyphosis, spinal tumor, and failed previous fusion (pseudarthrosis)."
+    },
+    "latestEvent": {
+      "dateReceived": "20260427",
+      "dateOfEvent": "20260101",
+      "eventType": "Injury",
+      "manufacturer": "GLOBUS MEDICAL, INC.",
+      "brandName": "REVERE",
+      "genericName": "TRANS-FACET-SCREW INTERNAL SPINAL FIXATION SYSTEM, STERILE",
+      "productProblems": [
+        "Fracture"
+      ]
+    },
+    "clearanceTimeline": [
+      {
+        "period": "2024",
+        "clearances": 0,
+        "events": 300,
+        "recalls": 0
+      },
+      {
+        "period": "2025",
+        "clearances": 0,
+        "events": 91,
+        "recalls": 0
+      },
+      {
+        "period": "2026",
+        "clearances": 0,
+        "events": 38,
+        "recalls": 0
+      }
+    ]
   }
 ]

@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-05-19T19:19:21.342Z",
+  "hospitalsUpdated": 3,
+  "devicesUpdated": 3,
+  "apiKeysRequired": {
+    "cms": false,
+    "openFda": false,
+    "openFdaOptionalKeySupported": true
+  },
+  "sourceCatalog": {
+    "general": "https://data.cms.gov/provider-data/dataset/xubh-q36u",
+    "complications": "https://data.cms.gov/provider-data/dataset/ynj2-r877",
+    "readmissions": "https://data.cms.gov/provider-data/dataset/632h-zaca",
+    "hrrp": "https://data.cms.gov/provider-data/dataset/9n3s-kdb3",
+    "hac": "https://data.cms.gov/provider-data/dataset/yq43-i98g",
+    "hvbp": "https://data.cms.gov/provider-data/dataset/pudb-wetr",
+    "openFda510k": "https://api.fda.gov/device/510k.json",
+    "openFdaEvent": "https://api.fda.gov/device/event.json",
+    "openFdaRecall": "https://api.fda.gov/device/recall.json"
+  }
+}

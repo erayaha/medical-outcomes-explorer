@@ -3,12 +3,6 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 
-function getMapPosition(latitude, longitude) {
-  const x = ((longitude + 125) / 60) * 100;
-  const y = (1 - (latitude - 25) / 25) * 100;
-  return { left: `${Math.max(5, Math.min(95, x))}%`, top: `${Math.max(10, Math.min(90, y))}%` };
-}
-
 export function HospitalExplorer({ hospitals }) {
   const [query, setQuery] = useState("");
   const [stateFilter, setStateFilter] = useState("all");
@@ -27,6 +21,17 @@ export function HospitalExplorer({ hospitals }) {
     return matchesQuery && matchesState;
   });
 
+  const stateSummary = states
+    .filter((state) => state !== "all")
+    .map((state) => ({
+      state,
+      hospitals: hospitals.filter((hospital) => hospital.state === state).length,
+      averageRating:
+        hospitals
+          .filter((hospital) => hospital.state === state && hospital.overallRating !== null)
+          .reduce((sum, hospital, _, rows) => sum + hospital.overallRating / rows.length, 0) || 0,
+    }));
+
   return (
     <section className="explorer-grid">
       <div className="panel stack-gap">
@@ -37,7 +42,7 @@ export function HospitalExplorer({ hospitals }) {
               type="search"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Search by hospital, city, or CMS ID"
+              placeholder="Search by hospital, city, or CMS provider ID"
             />
           </label>
           <label>
@@ -59,6 +64,7 @@ export function HospitalExplorer({ hospitals }) {
                 <th>Location</th>
                 <th>Type</th>
                 <th>CMS rating</th>
+                <th>Programs</th>
               </tr>
             </thead>
             <tbody>
@@ -66,38 +72,36 @@ export function HospitalExplorer({ hospitals }) {
                 <tr key={hospital.providerId}>
                   <td>
                     <Link href={`/hospitals/${hospital.slug}`}>{hospital.name}</Link>
+                    <div className="helper-text">Provider ID {hospital.providerId}</div>
                   </td>
                   <td>
                     {hospital.city}, {hospital.state}
                   </td>
                   <td>{hospital.hospitalType}</td>
-                  <td>{hospital.overallRating}/5</td>
+                  <td>{hospital.overallRating ? `${hospital.overallRating}/5` : "Not rated"}</td>
+                  <td>{hospital.programs.join(", ")}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
       </div>
-      <div className="panel">
-        <div className="map-card" aria-label="Hospital location map">
-          <div className="map-grid" />
-          {filteredHospitals.map((hospital) => {
-            const position = getMapPosition(hospital.latitude, hospital.longitude);
-            return (
-              <Link
-                key={hospital.providerId}
-                href={`/hospitals/${hospital.slug}`}
-                className="map-pin"
-                style={position}
-                title={hospital.name}
-              >
-                <span>{hospital.state}</span>
-              </Link>
-            );
-          })}
+      <div className="panel stack-gap">
+        <div className="section-heading">
+          <h2>State snapshot</h2>
+          <p>Real CMS facility records currently loaded into the static snapshot.</p>
         </div>
+        <ul className="list-grid">
+          {stateSummary.map((item) => (
+            <li key={item.state} className="mini-card">
+              <strong>{item.state}</strong>
+              <span>{item.hospitals} hospital record(s)</span>
+              <span>Average rating {item.averageRating ? item.averageRating.toFixed(1) : "n/a"}</span>
+            </li>
+          ))}
+        </ul>
         <p className="helper-text">
-          The map uses approximate coordinates from the versioned snapshot so each hospital detail page remains crawlable and linked from static HTML.
+          The app uses direct CMS facility records and avoids synthetic map coordinates so every value shown remains traceable to the government snapshot.
         </p>
       </div>
     </section>

@@ -21,7 +21,7 @@ export function LiveDeviceFeed() {
       setState({
         loading: false,
         results: [],
-        error: "Live openFDA results are unavailable right now. The static sample below remains available for exploratory analysis.",
+        error: "Live openFDA results are unavailable right now. The static tracked product-code snapshot remains available below.",
       });
     }
   }
@@ -34,8 +34,8 @@ export function LiveDeviceFeed() {
     <div className="panel stack-gap">
       <div className="section-heading split">
         <div>
-          <h2>Latest openFDA 510(k) sample</h2>
-          <p>Client-side fetched with localStorage caching and a manual refresh option.</p>
+          <h2>Latest openFDA 510(k) records</h2>
+          <p>Client-side fetched from openFDA with localStorage caching and a manual refresh option.</p>
         </div>
         <button type="button" className="secondary-button" onClick={() => load(true)}>
           Refresh from source

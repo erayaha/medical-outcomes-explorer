@@ -1,37 +1,47 @@
 import { TrendChart } from "@/components/trend-chart";
 import { keywordMap } from "@/lib/site-config";
-import { getHospitals, getMeasures } from "@/lib/site-data";
+import { getMeasures, getOutcomeOverview, getSnapshotMeta } from "@/lib/site-data";
 
 export const metadata = {
   title: "Hospital outcomes over time",
   description:
-    "Track hospital mortality, readmissions, complications, and patient experience trends with long-form CMS-style explanations.",
+    "Track published CMS baseline-versus-performance outcomes and current complication, readmission, and HAC measures using real government data.",
   keywords: keywordMap.outcomes,
 };
 
 export default function OutcomesOverTimePage() {
-  const hospitals = getHospitals();
   const measures = getMeasures();
-  const cohortTrend = hospitals[0].metrics.map((metric, index) => ({
-    period: metric.period,
-    mortality: Number((hospitals.reduce((sum, hospital) => sum + hospital.metrics[index].mortality, 0) / hospitals.length).toFixed(1)),
-    readmissions: Number((hospitals.reduce((sum, hospital) => sum + hospital.metrics[index].readmissions, 0) / hospitals.length).toFixed(1)),
-    complications: Number((hospitals.reduce((sum, hospital) => sum + hospital.metrics[index].complications, 0) / hospitals.length).toFixed(1)),
-  }));
+  const overview = getOutcomeOverview();
+  const snapshotMeta = getSnapshotMeta();
 
   return (
     <div className="container page-stack">
       <section className="page-header">
         <p className="eyebrow">Outcomes over time</p>
-        <h1>Hospital outcomes and quality trends over time</h1>
+        <h1>CMS outcomes across baseline, performance, and current reporting windows</h1>
         <p className="lede">
-          Compare multi-year patterns in mortality, readmissions, complications, and experience scores using static HTML that remains accessible to search engines.
+          These charts aggregate the tracked hospitals’ published CMS baseline-versus-performance program fields and current safety scores. Snapshot generated {new Date(snapshotMeta.generatedAt).toLocaleDateString("en-US", { dateStyle: "long" })}.
         </p>
       </section>
       <section className="grid-three">
-        <TrendChart title="Average mortality" series={cohortTrend} dataKey="mortality" />
-        <TrendChart title="Average readmissions" series={cohortTrend} dataKey="readmissions" color="#2563eb" />
-        <TrendChart title="Average complications" series={cohortTrend} dataKey="complications" color="#dc2626" />
+        <TrendChart
+          title="Average HVBP mortality domain rate"
+          series={overview.mortalityComparison}
+          color="#0f766e"
+          valueFormatter={(value) => value?.toFixed(4) ?? "n/a"}
+        />
+        <TrendChart
+          title="Average HRRP readmission rate"
+          series={overview.readmissionComparison}
+          color="#2563eb"
+          valueFormatter={(value) => value?.toFixed(2) ?? "n/a"}
+        />
+        <TrendChart
+          title="Current HAC total scores by state"
+          series={overview.safetyScores}
+          color="#ca8a04"
+          valueFormatter={(value) => value?.toFixed(4) ?? "n/a"}
+        />
       </section>
       <section className="grid-two">
         {measures.map((measure) => (

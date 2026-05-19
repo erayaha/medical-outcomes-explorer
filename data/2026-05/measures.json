@@ -1,30 +1,32 @@
 [
   {
     "id": "mortality",
-    "name": "30-day mortality",
-    "keywords": ["CMS hospital mortality rates", "hospital mortality measure"],
-    "description": "Facility-level mortality indicator summarizing outcomes after selected inpatient episodes.",
-    "methodology": "Shown as an illustrative percentage trend aligned with CMS public reporting concepts and described in plain language for SEO-friendly interpretation."
+    "name": "CMS mortality measures",
+    "keywords": [
+      "CMS hospital mortality rates",
+      "hospital mortality measure"
+    ],
+    "description": "Mortality measures are sourced from the CMS Complications and Deaths dataset and HVBP clinical outcomes domain.",
+    "methodology": "This site shows current public CMS mortality scores plus HVBP baseline-versus-performance rates where available."
   },
   {
     "id": "readmissions",
-    "name": "30-day readmissions",
-    "keywords": ["CMS hospital readmission rates explained", "hospital readmission reduction program data"],
-    "description": "Readmission performance for target conditions, often used in HRRP analysis.",
-    "methodology": "Displayed as a longitudinal trend sourced from the versioned snapshot and explained alongside HRRP program context."
+    "name": "CMS readmission measures",
+    "keywords": [
+      "CMS hospital readmission rates explained",
+      "hospital readmission reduction program data"
+    ],
+    "description": "Readmission measures are sourced from CMS Unplanned Hospital Visits and the Hospital Readmissions Reduction Program datasets.",
+    "methodology": "This site compares expected versus predicted readmission rates from HRRP and current CMS public reporting rows."
   },
   {
     "id": "complications",
-    "name": "Hospital complications",
-    "keywords": ["hospital complications data", "patient safety indicators hospital"],
-    "description": "Complication-oriented hospital quality measure family that can be compared over time.",
-    "methodology": "Mapped to exploratory intervention and device narratives rather than patient-level causal claims."
-  },
-  {
-    "id": "patientExperience",
-    "name": "Patient experience",
-    "keywords": ["HCAHPS patient experience scores", "hospital patient experience trends"],
-    "description": "Consumer-oriented hospital experience score using public CMS reporting concepts.",
-    "methodology": "Included as a high-level score to balance outcomes, safety, and patient-centered quality."
+    "name": "CMS complications and HAC safety indicators",
+    "keywords": [
+      "hospital complications data",
+      "patient safety indicators hospital"
+    ],
+    "description": "Complication and safety fields are sourced from the CMS Complications and Deaths and HAC Reduction Program datasets.",
+    "methodology": "Current complication scores and FY2026 HAC indicators are rendered exactly as published by CMS for the selected hospitals."
   }
 ]

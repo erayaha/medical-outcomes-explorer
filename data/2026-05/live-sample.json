@@ -1,65 +1,47 @@
 {
-  "generatedAt": "2026-05-19T09:11:27.869Z",
-  "warnings": [
-    "CMS refresh fallback used: fetch failed",
-    "openFDA refresh fallback used: fetch failed"
-  ],
+  "generatedAt": "2026-05-19T19:19:21.342Z",
+  "warnings": [],
   "cmsSample": [
     {
-      "providerId": "330214",
-      "name": "NYU Langone Hospital - Brooklyn",
-      "city": "Brooklyn",
-      "state": "NY",
-      "hospitalType": "Acute Care Hospitals",
-      "overallRating": 5,
-      "source": "seed"
+      "providerId": "050425",
+      "name": "KAISER FOUNDATION HOSPITAL - SACRAMENTO",
+      "state": "CA",
+      "overallRating": 4,
+      "source": "live"
     },
     {
-      "providerId": "050425",
-      "name": "UCSF Medical Center",
-      "city": "San Francisco",
-      "state": "CA",
-      "hospitalType": "Acute Care Hospitals",
-      "overallRating": 4,
-      "source": "seed"
+      "providerId": "330214",
+      "name": "NYU LANGONE HOSPITALS",
+      "state": "NY",
+      "overallRating": 5,
+      "source": "live"
     },
     {
       "providerId": "450193",
-      "name": "Baylor University Medical Center",
-      "city": "Dallas",
+      "name": "Baylor St Lukes Medical Center",
       "state": "TX",
-      "hospitalType": "Acute Care Hospitals",
       "overallRating": 4,
-      "source": "seed"
+      "source": "live"
     }
   ],
   "openFdaSample": [
     {
-      "kNumber": null,
-      "referenceCode": "NAY",
-      "deviceName": null,
-      "deviceClass": "Transcatheter heart valve systems",
-      "applicant": "Edwards Lifesciences, Medtronic",
-      "advisoryCommittee": null,
-      "source": "seed"
+      "referenceCode": "FRN",
+      "deviceClass": "Pump, Infusion",
+      "latest510k": "K252015",
+      "source": "live"
     },
     {
-      "kNumber": null,
-      "referenceCode": "DXL",
-      "deviceName": null,
-      "deviceClass": "Laparoscopic surgical staplers",
-      "applicant": "Intuitive Surgical, Medtronic",
-      "advisoryCommittee": null,
-      "source": "seed"
+      "referenceCode": "QSN",
+      "deviceClass": "Orthopedic Infection Microbial Multiplex Nucleic Acid Detection System",
+      "latest510k": "DEN200066",
+      "source": "live"
     },
     {
-      "kNumber": null,
       "referenceCode": "MNH",
-      "deviceName": null,
-      "deviceClass": "Continuous glucose monitoring systems",
-      "applicant": "Dexcom, Abbott",
-      "advisoryCommittee": null,
-      "source": "seed"
+      "deviceClass": "Orthosis, Spondylolisthesis Spinal Fixation",
+      "latest510k": "K162801",
+      "source": "live"
     }
   ]
 }
