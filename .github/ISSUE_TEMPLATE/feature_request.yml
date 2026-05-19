@@ -1,0 +1,13 @@
+name: Feature request
+description: Suggest a new hospital, outcomes, or device exploration feature
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What should change?
+    validations:
+      required: true
+  - type: textarea
+    id: seo
+    attributes:
+      label: Which search intent or user question would this help?

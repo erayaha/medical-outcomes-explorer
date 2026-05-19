@@ -1,0 +1,53 @@
+[
+  {
+    "productCode": "NAY",
+    "slug": "fda-510k-product-code-nay",
+    "deviceClass": "Transcatheter heart valve systems",
+    "manufacturerExamples": ["Edwards Lifesciences", "Medtronic"],
+    "summary": "Cardiovascular implant class used here to explore whether clearance and recall activity coincides with complication and mortality trends.",
+    "clearanceTimeline": [
+      { "period": "2022", "clearances": 6, "recalls": 1, "events": 118 },
+      { "period": "2023", "clearances": 8, "recalls": 0, "events": 132 },
+      { "period": "2024", "clearances": 10, "recalls": 1, "events": 140 }
+    ],
+    "latestRecall": {
+      "date": "2024-11-14",
+      "reason": "Potential delivery system deployment issue",
+      "classification": "Class II"
+    }
+  },
+  {
+    "productCode": "DXL",
+    "slug": "fda-510k-product-code-dxl",
+    "deviceClass": "Laparoscopic surgical staplers",
+    "manufacturerExamples": ["Intuitive Surgical", "Medtronic"],
+    "summary": "Procedure-support device class tied heuristically to complication monitoring for abdominal and thoracic surgery pathways.",
+    "clearanceTimeline": [
+      { "period": "2022", "clearances": 9, "recalls": 1, "events": 85 },
+      { "period": "2023", "clearances": 11, "recalls": 2, "events": 104 },
+      { "period": "2024", "clearances": 13, "recalls": 1, "events": 99 }
+    ],
+    "latestRecall": {
+      "date": "2024-08-02",
+      "reason": "Incomplete staple line formation in a subset of lots",
+      "classification": "Class I"
+    }
+  },
+  {
+    "productCode": "MNH",
+    "slug": "fda-510k-product-code-mnh",
+    "deviceClass": "Continuous glucose monitoring systems",
+    "manufacturerExamples": ["Dexcom", "Abbott"],
+    "summary": "Monitoring technology class included to show how device adoption timelines can be compared with readmission and patient experience trends.",
+    "clearanceTimeline": [
+      { "period": "2022", "clearances": 5, "recalls": 0, "events": 61 },
+      { "period": "2023", "clearances": 7, "recalls": 0, "events": 66 },
+      { "period": "2024", "clearances": 8, "recalls": 1, "events": 74 }
+    ],
+    "latestRecall": {
+      "date": "2024-12-09",
+      "reason": "Software alert suppression under specific battery conditions",
+      "classification": "Class II"
+    }
+  }
+]

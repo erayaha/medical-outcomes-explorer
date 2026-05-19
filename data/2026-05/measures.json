@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mortality",
+    "name": "30-day mortality",
+    "keywords": ["CMS hospital mortality rates", "hospital mortality measure"],
+    "description": "Facility-level mortality indicator summarizing outcomes after selected inpatient episodes.",
+    "methodology": "Shown as an illustrative percentage trend aligned with CMS public reporting concepts and described in plain language for SEO-friendly interpretation."
+  },
+  {
+    "id": "readmissions",
+    "name": "30-day readmissions",
+    "keywords": ["CMS hospital readmission rates explained", "hospital readmission reduction program data"],
+    "description": "Readmission performance for target conditions, often used in HRRP analysis.",
+    "methodology": "Displayed as a longitudinal trend sourced from the versioned snapshot and explained alongside HRRP program context."
+  },
+  {
+    "id": "complications",
+    "name": "Hospital complications",
+    "keywords": ["hospital complications data", "patient safety indicators hospital"],
+    "description": "Complication-oriented hospital quality measure family that can be compared over time.",
+    "methodology": "Mapped to exploratory intervention and device narratives rather than patient-level causal claims."
+  },
+  {
+    "id": "patientExperience",
+    "name": "Patient experience",
+    "keywords": ["HCAHPS patient experience scores", "hospital patient experience trends"],
+    "description": "Consumer-oriented hospital experience score using public CMS reporting concepts.",
+    "methodology": "Included as a high-level score to balance outcomes, safety, and patient-centered quality."
+  }
+]

@@ -1,0 +1,13 @@
+name: Bug report
+description: Report an issue with a page, dataset, or visualization
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: route
+    attributes:
+      label: Affected route or dataset

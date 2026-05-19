@@ -1,0 +1,65 @@
+[
+  {
+    "providerId": "330214",
+    "slug": "330214-nyu-langone-hospital-brooklyn",
+    "name": "NYU Langone Hospital - Brooklyn",
+    "city": "Brooklyn",
+    "state": "NY",
+    "hospitalType": "Acute Care Hospitals",
+    "ownership": "Voluntary non-profit - Private",
+    "overallRating": 5,
+    "latitude": 40.6061,
+    "longitude": -73.9617,
+    "teachingStatus": "Major teaching hospital",
+    "emergencyServices": true,
+    "summary": "Large urban teaching hospital with strong current quality ratings and improving readmission performance.",
+    "programs": ["HRRP", "HVBP", "HACRP"],
+    "metrics": [
+      { "period": "2022", "mortality": 10.5, "readmissions": 14.4, "complications": 3.1, "patientExperience": 72 },
+      { "period": "2023", "mortality": 10.1, "readmissions": 13.8, "complications": 2.9, "patientExperience": 74 },
+      { "period": "2024", "mortality": 9.8, "readmissions": 13.1, "complications": 2.6, "patientExperience": 76 }
+    ]
+  },
+  {
+    "providerId": "050425",
+    "slug": "050425-ucsf-medical-center",
+    "name": "UCSF Medical Center",
+    "city": "San Francisco",
+    "state": "CA",
+    "hospitalType": "Acute Care Hospitals",
+    "ownership": "Government - State",
+    "overallRating": 4,
+    "latitude": 37.7631,
+    "longitude": -122.4586,
+    "teachingStatus": "Major teaching hospital",
+    "emergencyServices": true,
+    "summary": "Academic referral center with high patient experience and steadily declining complication rates.",
+    "programs": ["HVBP", "HACRP"],
+    "metrics": [
+      { "period": "2022", "mortality": 11.3, "readmissions": 14.1, "complications": 3.4, "patientExperience": 78 },
+      { "period": "2023", "mortality": 10.9, "readmissions": 13.7, "complications": 3.0, "patientExperience": 79 },
+      { "period": "2024", "mortality": 10.4, "readmissions": 13.0, "complications": 2.8, "patientExperience": 81 }
+    ]
+  },
+  {
+    "providerId": "450193",
+    "slug": "450193-baylor-university-medical-center",
+    "name": "Baylor University Medical Center",
+    "city": "Dallas",
+    "state": "TX",
+    "hospitalType": "Acute Care Hospitals",
+    "ownership": "Voluntary non-profit - Church",
+    "overallRating": 4,
+    "latitude": 32.7879,
+    "longitude": -96.7857,
+    "teachingStatus": "Teaching hospital",
+    "emergencyServices": true,
+    "summary": "High-volume tertiary center with improved mortality and stable patient safety performance.",
+    "programs": ["HRRP", "HVBP"],
+    "metrics": [
+      { "period": "2022", "mortality": 10.9, "readmissions": 15.0, "complications": 3.5, "patientExperience": 71 },
+      { "period": "2023", "mortality": 10.5, "readmissions": 14.3, "complications": 3.2, "patientExperience": 73 },
+      { "period": "2024", "mortality": 10.0, "readmissions": 13.9, "complications": 2.9, "patientExperience": 75 }
+    ]
+  }
+]

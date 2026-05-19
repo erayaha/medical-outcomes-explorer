@@ -1,0 +1,17 @@
+[
+  {
+    "productCode": "NAY",
+    "measureIds": ["mortality", "complications"],
+    "rationale": "Cardiovascular implant clearances and recalls can be compared against hospital mortality and complication trends at a high level."
+  },
+  {
+    "productCode": "DXL",
+    "measureIds": ["complications", "readmissions"],
+    "rationale": "Stapler recalls may align heuristically with surgical complication and readmission narratives."
+  },
+  {
+    "productCode": "MNH",
+    "measureIds": ["readmissions", "patientExperience"],
+    "rationale": "Monitoring technology adoption can be explored against readmission management and patient-centered care trends."
+  }
+]
