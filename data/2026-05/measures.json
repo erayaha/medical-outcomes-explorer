@@ -1,0 +1,32 @@
+[
+  {
+    "id": "mortality",
+    "name": "CMS mortality measures",
+    "keywords": [
+      "CMS hospital mortality rates",
+      "hospital mortality measure"
+    ],
+    "description": "Mortality measures are sourced from the CMS Complications and Deaths dataset and HVBP clinical outcomes domain.",
+    "methodology": "This site shows current public CMS mortality scores plus HVBP baseline-versus-performance rates where available."
+  },
+  {
+    "id": "readmissions",
+    "name": "CMS readmission measures",
+    "keywords": [
+      "CMS hospital readmission rates explained",
+      "hospital readmission reduction program data"
+    ],
+    "description": "Readmission measures are sourced from CMS Unplanned Hospital Visits and the Hospital Readmissions Reduction Program datasets.",
+    "methodology": "This site compares expected versus predicted readmission rates from HRRP and current CMS public reporting rows."
+  },
+  {
+    "id": "complications",
+    "name": "CMS complications and HAC safety indicators",
+    "keywords": [
+      "hospital complications data",
+      "patient safety indicators hospital"
+    ],
+    "description": "Complication and safety fields are sourced from the CMS Complications and Deaths and HAC Reduction Program datasets.",
+    "methodology": "Current complication scores and FY2026 HAC indicators are rendered exactly as published by CMS for the selected hospitals."
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-05-19T19:19:21.342Z",
+  "warnings": [],
+  "cmsSample": [
+    {
+      "providerId": "050425",
+      "name": "KAISER FOUNDATION HOSPITAL - SACRAMENTO",
+      "state": "CA",
+      "overallRating": 4,
+      "source": "live"
+    },
+    {
+      "providerId": "330214",
+      "name": "NYU LANGONE HOSPITALS",
+      "state": "NY",
+      "overallRating": 5,
+      "source": "live"
+    },
+    {
+      "providerId": "450193",
+      "name": "Baylor St Lukes Medical Center",
+      "state": "TX",
+      "overallRating": 4,
+      "source": "live"
+    }
+  ],
+  "openFdaSample": [
+    {
+      "referenceCode": "FRN",
+      "deviceClass": "Pump, Infusion",
+      "latest510k": "K252015",
+      "source": "live"
+    },
+    {
+      "referenceCode": "QSN",
+      "deviceClass": "Orthopedic Infection Microbial Multiplex Nucleic Acid Detection System",
+      "latest510k": "DEN200066",
+      "source": "live"
+    },
+    {
+      "referenceCode": "MNH",
+      "deviceClass": "Orthosis, Spondylolisthesis Spinal Fixation",
+      "latest510k": "K162801",
+      "source": "live"
+    }
+  ]
+}

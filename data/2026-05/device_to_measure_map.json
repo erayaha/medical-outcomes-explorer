@@ -1,0 +1,26 @@
+[
+  {
+    "productCode": "FRN",
+    "measureIds": [
+      "complications",
+      "readmissions"
+    ],
+    "rationale": "Infusion pump recalls and adverse-event reports are displayed next to CMS safety and readmission content because medication-delivery device failures can affect inpatient safety workflows."
+  },
+  {
+    "productCode": "QSN",
+    "measureIds": [
+      "complications",
+      "mortality"
+    ],
+    "rationale": "Joint infection diagnostic device activity is shown with complications and mortality context because infections and delayed diagnosis can affect surgical outcomes."
+  },
+  {
+    "productCode": "MNH",
+    "measureIds": [
+      "readmissions",
+      "complications"
+    ],
+    "rationale": "Spinal fixation device activity is shown with readmission and complication context because orthopedic implants can influence post-surgical complications and return visits."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "medical-outcomes-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0 --port 4000 --experimental-https",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0 --port 4000",
+    "data:refresh": "node scripts/refresh-data.mjs",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "10.4.1",
+    "@testing-library/jest-dom": "6.9.1",
+    "@testing-library/react": "16.3.2",
+    "jest": "30.4.2",
+    "jest-environment-jsdom": "30.4.1"
+  }
+}
