@@ -64,10 +64,12 @@ async function refresh() {
   } catch (error) {
     warnings.push(`openFDA refresh fallback used: ${error.message}`);
     openFdaSample = devicesSeed.map((device) => ({
-      kNumber: device.productCode,
-      deviceName: device.deviceClass,
+      kNumber: null,
+      referenceCode: device.productCode,
+      deviceName: null,
+      deviceClass: device.deviceClass,
       applicant: device.manufacturerExamples.join(", "),
-      advisoryCommittee: "Seed device class",
+      advisoryCommittee: null,
       source: "seed",
     }));
   }

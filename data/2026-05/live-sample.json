@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T09:06:20.342Z",
+  "generatedAt": "2026-05-19T09:11:27.869Z",
   "warnings": [
     "CMS refresh fallback used: fetch failed",
     "openFDA refresh fallback used: fetch failed"
@@ -35,24 +35,30 @@
   ],
   "openFdaSample": [
     {
-      "kNumber": "NAY",
-      "deviceName": "Transcatheter heart valve systems",
+      "kNumber": null,
+      "referenceCode": "NAY",
+      "deviceName": null,
+      "deviceClass": "Transcatheter heart valve systems",
       "applicant": "Edwards Lifesciences, Medtronic",
-      "advisoryCommittee": "Seed device class",
+      "advisoryCommittee": null,
       "source": "seed"
     },
     {
-      "kNumber": "DXL",
-      "deviceName": "Laparoscopic surgical staplers",
+      "kNumber": null,
+      "referenceCode": "DXL",
+      "deviceName": null,
+      "deviceClass": "Laparoscopic surgical staplers",
       "applicant": "Intuitive Surgical, Medtronic",
-      "advisoryCommittee": "Seed device class",
+      "advisoryCommittee": null,
       "source": "seed"
     },
     {
-      "kNumber": "MNH",
-      "deviceName": "Continuous glucose monitoring systems",
+      "kNumber": null,
+      "referenceCode": "MNH",
+      "deviceName": null,
+      "deviceClass": "Continuous glucose monitoring systems",
       "applicant": "Dexcom, Abbott",
-      "advisoryCommittee": "Seed device class",
+      "advisoryCommittee": null,
       "source": "seed"
     }
   ]
