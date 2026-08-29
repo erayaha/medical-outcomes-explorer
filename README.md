@@ -2,6 +2,13 @@
 
 Medical Outcomes Explorer is a fully static, SEO-friendly analytics site for exploring US hospital quality, outcomes, safety indicators, and related FDA medical device signals.
 
+[![GitHub Pages](https://img.shields.io/badge/Live%20Site-GitHub%20Pages-2563eb?logo=github&logoColor=white)](https://erayaha.github.io/medical-outcomes-explorer/)
+[![Next.js](https://img.shields.io/badge/Next.js-16.2.6-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-19.2.4-61DAFB?logo=react&logoColor=black)](https://react.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+> 🌐 **Live Website**: Access the live public portal at **[erayaha.github.io/medical-outcomes-explorer](https://erayaha.github.io/medical-outcomes-explorer/)** deployed automatically on every push via `.github/workflows/deploy.yml`.
+
 ## What ships in this repo
 
 - A GitHub Pages-ready static Next.js site with crawlable routes
@@ -9,7 +16,7 @@ Medical Outcomes Explorer is a fully static, SEO-friendly analytics site for exp
 - Hospital overview, outcomes, interventions, devices, adverse events, methods, and `/eia` pages
 - Structured data, sitemap, robots.txt, and long-form SEO content
 - A starter data refresh script for CMS and openFDA snapshots
-- GitHub Actions workflows for Pages deployment and scheduled data refreshes
+- GitHub Actions workflows for Pages deployment (`.github/workflows/deploy.yml`) and scheduled data refreshes (`.github/workflows/refresh-data.yml`)
 
 ## Local development
 
