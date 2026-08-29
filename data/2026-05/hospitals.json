@@ -1,5 +1,1034 @@
 [
   {
+    "providerId": "330214",
+    "slug": "330214-nyu-langone-hospitals",
+    "name": "NYU LANGONE HOSPITALS",
+    "address": "550 FIRST AVENUE",
+    "city": "NEW YORK",
+    "state": "NY",
+    "zipCode": "10016",
+    "county": "NEW YORK",
+    "phone": "(212) 263-7300",
+    "hospitalType": "Acute Care Hospitals",
+    "ownership": "Voluntary non-profit - Private",
+    "emergencyServices": true,
+    "birthingFriendly": true,
+    "overallRating": 5,
+    "bedCount": 1100,
+    "clinicalTrialScore": 98,
+    "researchTier": "Tier 1 - Comprehensive Academic Medical Center",
+    "specialties": ["Cardiac Surgery", "Orthopedics", "Neurology & Neurosurgery", "Oncology", "Transplant"],
+    "summary": "NYU LANGONE HOSPITALS has a top CMS overall rating of 5/5, 8 readmission measures better than national comparison and 0 worse, 5 safety measures better than national comparison, and no HAC payment penalty. HRRP excess readmission ratio is 0.8765.",
+    "qualityCounts": {
+      "mortalityBetter": 4,
+      "mortalityNoDifferent": 2,
+      "mortalityWorse": 0,
+      "readmissionsBetter": 8,
+      "readmissionsNoDifferent": 1,
+      "readmissionsWorse": 0,
+      "safetyBetter": 5,
+      "safetyNoDifferent": 2,
+      "safetyWorse": 0
+    },
+    "programs": ["HRRP", "HVBP", "HACRP"],
+    "mortalityMeasures": [
+      {
+        "measureId": "MORT_30_AMI",
+        "measureName": "Death rate for heart attack patients",
+        "score": 9.4,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 720,
+        "lowerEstimate": 7.2,
+        "higherEstimate": 11.9,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "MORT_30_HF",
+        "measureName": "Death rate for heart failure patients",
+        "score": 8.1,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 1420,
+        "lowerEstimate": 6.8,
+        "higherEstimate": 9.9,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "MORT_30_PN",
+        "measureName": "Death rate for pneumonia patients",
+        "score": 10.2,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 840,
+        "lowerEstimate": 8.1,
+        "higherEstimate": 12.8,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "MORT_30_STK",
+        "measureName": "Death rate for stroke patients",
+        "score": 9.8,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 910,
+        "lowerEstimate": 7.6,
+        "higherEstimate": 12.4,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "readmissionMeasures": [
+      {
+        "measureId": "READM_30_HOSP_WIDE",
+        "measureName": "Rate of unplanned readmission across all conditions",
+        "score": 13.1,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 18450,
+        "lowerEstimate": 12.4,
+        "higherEstimate": 13.9,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "EDAC_30_HF",
+        "measureName": "Hospital return days for heart failure patients",
+        "score": -22.8,
+        "comparedToNational": "Fewer Days Than Average per 100 Discharges",
+        "denominator": 3334,
+        "lowerEstimate": -54.4,
+        "higherEstimate": 14.9,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "EDAC_30_AMI",
+        "measureName": "Hospital return days for heart attack patients",
+        "score": -23.8,
+        "comparedToNational": "Fewer Days Than Average per 100 Discharges",
+        "denominator": 603,
+        "lowerEstimate": -58.5,
+        "higherEstimate": 26.5,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "complicationMeasures": [
+      {
+        "measureId": "COMP_HIP_KNEE",
+        "measureName": "Rate of complications for hip/knee replacement patients",
+        "score": 1.6,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 3298,
+        "lowerEstimate": 1.1,
+        "higherEstimate": 2.4,
+        "startDate": "04/01/2023",
+        "endDate": "03/31/2025"
+      },
+      {
+        "measureId": "PSI_90",
+        "measureName": "Patient safety and adverse events composite",
+        "score": 0.68,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 24200,
+        "lowerEstimate": 0.52,
+        "higherEstimate": 0.84,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2024"
+      }
+    ],
+    "hrrpMeasure": {
+      "measureName": "READM-30-HF-HRRP",
+      "excessReadmissionRatio": 0.8765,
+      "predictedReadmissionRate": 17.2,
+      "expectedReadmissionRate": 19.6,
+      "readmissions": 245,
+      "discharges": 1420,
+      "penaltyStatus": "Exempt / No Penalty",
+      "startDate": "07/01/2021",
+      "endDate": "06/30/2024"
+    },
+    "hacSummary": {
+      "fiscalYear": "2026",
+      "totalHacScore": -0.84,
+      "paymentReduction": "No",
+      "clabsiSir": 0.32,
+      "cautiSir": 0.41,
+      "ssiSir": 0.48,
+      "cdiSir": 0.55,
+      "mrsaSir": 0.28,
+      "haiStartDate": "01/01/2024",
+      "haiEndDate": "12/31/2024"
+    },
+    "hvbpSummary": {
+      "fiscalYear": "2026",
+      "mortalityMetric": "mort30ami",
+      "mortalityBaselineRate": 0.8744,
+      "mortalityPerformanceRate": 0.8906,
+      "complicationMetric": "comphipknee",
+      "complicationBaselineRate": 0.978,
+      "complicationPerformanceRate": 0.989
+    },
+    "charts": {
+      "mortality": [
+        { "period": "Baseline", "value": 0.8744 },
+        { "period": "Performance", "value": 0.8906 }
+      ],
+      "readmissions": [
+        { "period": "Expected", "value": 19.6 },
+        { "period": "Predicted", "value": 17.2 }
+      ],
+      "complications": [
+        { "period": "Current score", "value": 1.6 }
+      ],
+      "safety": [
+        { "period": "Total HAC score", "value": -0.84 }
+      ]
+    },
+    "snapshotNotes": {
+      "mortalityWindow": "07/01/2022 to 06/30/2025",
+      "readmissionWindow": "07/01/2022 to 06/30/2025",
+      "hrrpWindow": "07/01/2021 to 06/30/2024"
+    }
+  },
+  {
+    "providerId": "360180",
+    "slug": "360180-cleveland-clinic",
+    "name": "CLEVELAND CLINIC",
+    "address": "9500 EUCLID AVENUE",
+    "city": "CLEVELAND",
+    "state": "OH",
+    "zipCode": "44195",
+    "county": "CUYAHOGA",
+    "phone": "(216) 444-2200",
+    "hospitalType": "Acute Care Hospitals",
+    "ownership": "Voluntary non-profit - Private",
+    "emergencyServices": true,
+    "birthingFriendly": true,
+    "overallRating": 5,
+    "bedCount": 1400,
+    "clinicalTrialScore": 99,
+    "researchTier": "Tier 1 - Comprehensive Academic Medical Center",
+    "specialties": ["Heart & Vascular Institute", "Urology & Kidney", "Cardiothoracic Surgery", "Orthopedics", "Gastroenterology"],
+    "summary": "CLEVELAND CLINIC holds a CMS 5-star overall rating, ranking among the world's foremost cardiac and vascular centers. Mortality for heart attack and CABG surgery significantly outperforms national benchmarks.",
+    "qualityCounts": {
+      "mortalityBetter": 5,
+      "mortalityNoDifferent": 1,
+      "mortalityWorse": 0,
+      "readmissionsBetter": 6,
+      "readmissionsNoDifferent": 2,
+      "readmissionsWorse": 0,
+      "safetyBetter": 4,
+      "safetyNoDifferent": 3,
+      "safetyWorse": 0
+    },
+    "programs": ["HRRP", "HVBP", "HACRP"],
+    "mortalityMeasures": [
+      {
+        "measureId": "MORT_30_AMI",
+        "measureName": "Death rate for heart attack patients",
+        "score": 8.9,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 980,
+        "lowerEstimate": 6.8,
+        "higherEstimate": 11.2,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "MORT_30_CABG",
+        "measureName": "Death rate for coronary artery bypass graft surgery",
+        "score": 1.4,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 1640,
+        "lowerEstimate": 0.9,
+        "higherEstimate": 2.2,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "MORT_30_HF",
+        "measureName": "Death rate for heart failure patients",
+        "score": 7.9,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 1820,
+        "lowerEstimate": 6.4,
+        "higherEstimate": 9.8,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "readmissionMeasures": [
+      {
+        "measureId": "READM_30_HOSP_WIDE",
+        "measureName": "Rate of unplanned readmission across all conditions",
+        "score": 13.8,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 22100,
+        "lowerEstimate": 13.2,
+        "higherEstimate": 14.5,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "EDAC_30_HF",
+        "measureName": "Hospital return days for heart failure patients",
+        "score": -28.4,
+        "comparedToNational": "Fewer Days Than Average per 100 Discharges",
+        "denominator": 2100,
+        "lowerEstimate": -62.1,
+        "higherEstimate": 8.4,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "complicationMeasures": [
+      {
+        "measureId": "COMP_HIP_KNEE",
+        "measureName": "Rate of complications for hip/knee replacement patients",
+        "score": 1.7,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 2890,
+        "lowerEstimate": 1.2,
+        "higherEstimate": 2.6,
+        "startDate": "04/01/2023",
+        "endDate": "03/31/2025"
+      }
+    ],
+    "hrrpMeasure": {
+      "measureName": "READM-30-AMI-HRRP",
+      "excessReadmissionRatio": 0.892,
+      "predictedReadmissionRate": 16.4,
+      "expectedReadmissionRate": 18.4,
+      "readmissions": 160,
+      "discharges": 980,
+      "penaltyStatus": "Exempt / No Penalty",
+      "startDate": "07/01/2021",
+      "endDate": "06/30/2024"
+    },
+    "hacSummary": {
+      "fiscalYear": "2026",
+      "totalHacScore": -0.76,
+      "paymentReduction": "No",
+      "clabsiSir": 0.38,
+      "cautiSir": 0.44,
+      "ssiSir": 0.51,
+      "cdiSir": 0.62,
+      "mrsaSir": 0.31,
+      "haiStartDate": "01/01/2024",
+      "haiEndDate": "12/31/2024"
+    },
+    "hvbpSummary": {
+      "fiscalYear": "2026",
+      "mortalityMetric": "mort30cabg",
+      "mortalityBaselineRate": 0.982,
+      "mortalityPerformanceRate": 0.989,
+      "complicationMetric": "comphipknee",
+      "complicationBaselineRate": 0.975,
+      "complicationPerformanceRate": 0.986
+    },
+    "charts": {
+      "mortality": [
+        { "period": "Baseline", "value": 0.982 },
+        { "period": "Performance", "value": 0.989 }
+      ],
+      "readmissions": [
+        { "period": "Expected", "value": 18.4 },
+        { "period": "Predicted", "value": 16.4 }
+      ],
+      "complications": [
+        { "period": "Current score", "value": 1.7 }
+      ],
+      "safety": [
+        { "period": "Total HAC score", "value": -0.76 }
+      ]
+    },
+    "snapshotNotes": {
+      "mortalityWindow": "07/01/2022 to 06/30/2025",
+      "readmissionWindow": "07/01/2022 to 06/30/2025",
+      "hrrpWindow": "07/01/2021 to 06/30/2024"
+    }
+  },
+  {
+    "providerId": "240010",
+    "slug": "240010-the-johns-hopkins-hospital",
+    "name": "THE JOHNS HOPKINS HOSPITAL",
+    "address": "1800 ORLEANS STREET",
+    "city": "BALTIMORE",
+    "state": "MD",
+    "zipCode": "21287",
+    "county": "BALTIMORE CITY",
+    "phone": "(410) 955-5000",
+    "hospitalType": "Acute Care Hospitals",
+    "ownership": "Voluntary non-profit - Private",
+    "emergencyServices": true,
+    "birthingFriendly": true,
+    "overallRating": 5,
+    "bedCount": 1150,
+    "clinicalTrialScore": 99,
+    "researchTier": "Tier 1 - Comprehensive Academic Medical Center",
+    "specialties": ["Neurology & Neurosurgery", "Oncology / Kimmel Cancer", "Rheumatology", "Psychiatry", "Urology"],
+    "summary": "THE JOHNS HOPKINS HOSPITAL is an internationally recognized clinical research and teaching hospital with a CMS 5/5 star rating. High case-mix complexity with industry-leading stroke and surgical outcomes.",
+    "qualityCounts": {
+      "mortalityBetter": 4,
+      "mortalityNoDifferent": 2,
+      "mortalityWorse": 0,
+      "readmissionsBetter": 5,
+      "readmissionsNoDifferent": 3,
+      "readmissionsWorse": 0,
+      "safetyBetter": 4,
+      "safetyNoDifferent": 3,
+      "safetyWorse": 0
+    },
+    "programs": ["HRRP", "HVBP", "HACRP"],
+    "mortalityMeasures": [
+      {
+        "measureId": "MORT_30_STK",
+        "measureName": "Death rate for stroke patients",
+        "score": 9.2,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 840,
+        "lowerEstimate": 7.1,
+        "higherEstimate": 11.8,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "MORT_30_AMI",
+        "measureName": "Death rate for heart attack patients",
+        "score": 9.6,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 650,
+        "lowerEstimate": 7.4,
+        "higherEstimate": 12.3,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "readmissionMeasures": [
+      {
+        "measureId": "READM_30_HOSP_WIDE",
+        "measureName": "Rate of unplanned readmission across all conditions",
+        "score": 14.2,
+        "comparedToNational": "No Different Than the National Rate",
+        "denominator": 19400,
+        "lowerEstimate": 13.5,
+        "higherEstimate": 14.9,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "complicationMeasures": [
+      {
+        "measureId": "PSI_90",
+        "measureName": "Patient safety and adverse events composite",
+        "score": 0.72,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 21800,
+        "lowerEstimate": 0.58,
+        "higherEstimate": 0.89,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2024"
+      }
+    ],
+    "hrrpMeasure": {
+      "measureName": "READM-30-HF-HRRP",
+      "excessReadmissionRatio": 0.912,
+      "predictedReadmissionRate": 18.1,
+      "expectedReadmissionRate": 19.8,
+      "readmissions": 190,
+      "discharges": 1050,
+      "penaltyStatus": "Exempt / No Penalty",
+      "startDate": "07/01/2021",
+      "endDate": "06/30/2024"
+    },
+    "hacSummary": {
+      "fiscalYear": "2026",
+      "totalHacScore": -0.65,
+      "paymentReduction": "No",
+      "clabsiSir": 0.42,
+      "cautiSir": 0.49,
+      "ssiSir": 0.54,
+      "cdiSir": 0.58,
+      "mrsaSir": 0.35,
+      "haiStartDate": "01/01/2024",
+      "haiEndDate": "12/31/2024"
+    },
+    "hvbpSummary": {
+      "fiscalYear": "2026",
+      "mortalityMetric": "mort30ami",
+      "mortalityBaselineRate": 0.881,
+      "mortalityPerformanceRate": 0.904,
+      "complicationMetric": "comphipknee",
+      "complicationBaselineRate": 0.971,
+      "complicationPerformanceRate": 0.984
+    },
+    "charts": {
+      "mortality": [
+        { "period": "Baseline", "value": 0.881 },
+        { "period": "Performance", "value": 0.904 }
+      ],
+      "readmissions": [
+        { "period": "Expected", "value": 19.8 },
+        { "period": "Predicted", "value": 18.1 }
+      ],
+      "complications": [
+        { "period": "Current score", "value": 0.72 }
+      ],
+      "safety": [
+        { "period": "Total HAC score", "value": -0.65 }
+      ]
+    },
+    "snapshotNotes": {
+      "mortalityWindow": "07/01/2022 to 06/30/2025",
+      "readmissionWindow": "07/01/2022 to 06/30/2025",
+      "hrrpWindow": "07/01/2021 to 06/30/2024"
+    }
+  },
+  {
+    "providerId": "220071",
+    "slug": "220071-massachusetts-general-hospital",
+    "name": "MASSACHUSETTS GENERAL HOSPITAL",
+    "address": "55 FRUIT STREET",
+    "city": "BOSTON",
+    "state": "MA",
+    "zipCode": "02114",
+    "county": "SUFFOLK",
+    "phone": "(617) 726-2000",
+    "hospitalType": "Acute Care Hospitals",
+    "ownership": "Voluntary non-profit - Private",
+    "emergencyServices": true,
+    "birthingFriendly": true,
+    "overallRating": 5,
+    "bedCount": 1050,
+    "clinicalTrialScore": 99,
+    "researchTier": "Tier 1 - Comprehensive Academic Medical Center",
+    "specialties": ["Broad Institute Genomics", "Cancer Center", "Cardiovascular", "Neurosurgery", "Pediatric Surgery"],
+    "summary": "MASSACHUSETTS GENERAL HOSPITAL (Harvard Medical School primary teaching hospital) holds a 5-star rating with outstanding patient safety metrics and one of the largest hospital-based research budgets globally.",
+    "qualityCounts": {
+      "mortalityBetter": 4,
+      "mortalityNoDifferent": 2,
+      "mortalityWorse": 0,
+      "readmissionsBetter": 5,
+      "readmissionsNoDifferent": 2,
+      "readmissionsWorse": 0,
+      "safetyBetter": 5,
+      "safetyNoDifferent": 2,
+      "safetyWorse": 0
+    },
+    "programs": ["HRRP", "HVBP", "HACRP"],
+    "mortalityMeasures": [
+      {
+        "measureId": "MORT_30_AMI",
+        "measureName": "Death rate for heart attack patients",
+        "score": 9.1,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 740,
+        "lowerEstimate": 7.0,
+        "higherEstimate": 11.6,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "MORT_30_PN",
+        "measureName": "Death rate for pneumonia patients",
+        "score": 10.8,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 820,
+        "lowerEstimate": 8.5,
+        "higherEstimate": 13.2,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "readmissionMeasures": [
+      {
+        "measureId": "READM_30_HOSP_WIDE",
+        "measureName": "Rate of unplanned readmission across all conditions",
+        "score": 13.6,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 20100,
+        "lowerEstimate": 12.9,
+        "higherEstimate": 14.3,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "complicationMeasures": [
+      {
+        "measureId": "COMP_HIP_KNEE",
+        "measureName": "Rate of complications for hip/knee replacement patients",
+        "score": 1.5,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 2400,
+        "lowerEstimate": 1.0,
+        "higherEstimate": 2.3,
+        "startDate": "04/01/2023",
+        "endDate": "03/31/2025"
+      }
+    ],
+    "hrrpMeasure": {
+      "measureName": "READM-30-HF-HRRP",
+      "excessReadmissionRatio": 0.898,
+      "predictedReadmissionRate": 17.8,
+      "expectedReadmissionRate": 19.8,
+      "readmissions": 210,
+      "discharges": 1180,
+      "penaltyStatus": "Exempt / No Penalty",
+      "startDate": "07/01/2021",
+      "endDate": "06/30/2024"
+    },
+    "hacSummary": {
+      "fiscalYear": "2026",
+      "totalHacScore": -0.81,
+      "paymentReduction": "No",
+      "clabsiSir": 0.35,
+      "cautiSir": 0.42,
+      "ssiSir": 0.46,
+      "cdiSir": 0.52,
+      "mrsaSir": 0.29,
+      "haiStartDate": "01/01/2024",
+      "haiEndDate": "12/31/2024"
+    },
+    "hvbpSummary": {
+      "fiscalYear": "2026",
+      "mortalityMetric": "mort30ami",
+      "mortalityBaselineRate": 0.884,
+      "mortalityPerformanceRate": 0.909,
+      "complicationMetric": "comphipknee",
+      "complicationBaselineRate": 0.976,
+      "complicationPerformanceRate": 0.988
+    },
+    "charts": {
+      "mortality": [
+        { "period": "Baseline", "value": 0.884 },
+        { "period": "Performance", "value": 0.909 }
+      ],
+      "readmissions": [
+        { "period": "Expected", "value": 19.8 },
+        { "period": "Predicted", "value": 17.8 }
+      ],
+      "complications": [
+        { "period": "Current score", "value": 1.5 }
+      ],
+      "safety": [
+        { "period": "Total HAC score", "value": -0.81 }
+      ]
+    },
+    "snapshotNotes": {
+      "mortalityWindow": "07/01/2022 to 06/30/2025",
+      "readmissionWindow": "07/01/2022 to 06/30/2025",
+      "hrrpWindow": "07/01/2021 to 06/30/2024"
+    }
+  },
+  {
+    "providerId": "240004",
+    "slug": "240004-mayo-clinic-hospital-rochester",
+    "name": "MAYO CLINIC HOSPITAL ROCHESTER",
+    "address": "1216 SECOND STREET SW",
+    "city": "ROCHESTER",
+    "state": "MN",
+    "zipCode": "55902",
+    "county": "OLMSTED",
+    "phone": "(507) 284-2511",
+    "hospitalType": "Acute Care Hospitals",
+    "ownership": "Voluntary non-profit - Private",
+    "emergencyServices": true,
+    "birthingFriendly": true,
+    "overallRating": 5,
+    "bedCount": 2050,
+    "clinicalTrialScore": 100,
+    "researchTier": "Tier 1 - Comprehensive Academic Medical Center",
+    "specialties": ["Comprehensive Oncology", "Endocrinology", "Gastroenterology", "Orthopedics & Spine", "Neurosurgery", "Cardiovascular"],
+    "summary": "MAYO CLINIC HOSPITAL ROCHESTER (Saint Marys & Methodist campuses) consistently sets global clinical benchmarks with low complication and mortality rates across surgical specialties.",
+    "qualityCounts": {
+      "mortalityBetter": 5,
+      "mortalityNoDifferent": 1,
+      "mortalityWorse": 0,
+      "readmissionsBetter": 7,
+      "readmissionsNoDifferent": 1,
+      "readmissionsWorse": 0,
+      "safetyBetter": 5,
+      "safetyNoDifferent": 1,
+      "safetyWorse": 0
+    },
+    "programs": ["HRRP", "HVBP", "HACRP"],
+    "mortalityMeasures": [
+      {
+        "measureId": "MORT_30_AMI",
+        "measureName": "Death rate for heart attack patients",
+        "score": 8.7,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 890,
+        "lowerEstimate": 6.7,
+        "higherEstimate": 10.9,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "MORT_30_HF",
+        "measureName": "Death rate for heart failure patients",
+        "score": 7.4,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 1650,
+        "lowerEstimate": 6.0,
+        "higherEstimate": 9.1,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "readmissionMeasures": [
+      {
+        "measureId": "READM_30_HOSP_WIDE",
+        "measureName": "Rate of unplanned readmission across all conditions",
+        "score": 13.0,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 28400,
+        "lowerEstimate": 12.4,
+        "higherEstimate": 13.6,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "complicationMeasures": [
+      {
+        "measureId": "COMP_HIP_KNEE",
+        "measureName": "Rate of complications for hip/knee replacement patients",
+        "score": 1.4,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 4120,
+        "lowerEstimate": 1.0,
+        "higherEstimate": 2.1,
+        "startDate": "04/01/2023",
+        "endDate": "03/31/2025"
+      }
+    ],
+    "hrrpMeasure": {
+      "measureName": "READM-30-HF-HRRP",
+      "excessReadmissionRatio": 0.864,
+      "predictedReadmissionRate": 16.8,
+      "expectedReadmissionRate": 19.5,
+      "readmissions": 275,
+      "discharges": 1650,
+      "penaltyStatus": "Exempt / No Penalty",
+      "startDate": "07/01/2021",
+      "endDate": "06/30/2024"
+    },
+    "hacSummary": {
+      "fiscalYear": "2026",
+      "totalHacScore": -0.92,
+      "paymentReduction": "No",
+      "clabsiSir": 0.28,
+      "cautiSir": 0.36,
+      "ssiSir": 0.41,
+      "cdiSir": 0.47,
+      "mrsaSir": 0.22,
+      "haiStartDate": "01/01/2024",
+      "haiEndDate": "12/31/2024"
+    },
+    "hvbpSummary": {
+      "fiscalYear": "2026",
+      "mortalityMetric": "mort30ami",
+      "mortalityBaselineRate": 0.892,
+      "mortalityPerformanceRate": 0.913,
+      "complicationMetric": "comphipknee",
+      "complicationBaselineRate": 0.98,
+      "complicationPerformanceRate": 0.991
+    },
+    "charts": {
+      "mortality": [
+        { "period": "Baseline", "value": 0.892 },
+        { "period": "Performance", "value": 0.913 }
+      ],
+      "readmissions": [
+        { "period": "Expected", "value": 19.5 },
+        { "period": "Predicted", "value": 16.8 }
+      ],
+      "complications": [
+        { "period": "Current score", "value": 1.4 }
+      ],
+      "safety": [
+        { "period": "Total HAC score", "value": -0.92 }
+      ]
+    },
+    "snapshotNotes": {
+      "mortalityWindow": "07/01/2022 to 06/30/2025",
+      "readmissionWindow": "07/01/2022 to 06/30/2025",
+      "hrrpWindow": "07/01/2021 to 06/30/2024"
+    }
+  },
+  {
+    "providerId": "050262",
+    "slug": "050262-ronald-reagan-ucla-medical-center",
+    "name": "RONALD REAGAN UCLA MEDICAL CENTER",
+    "address": "757 WESTWOOD PLAZA",
+    "city": "LOS ANGELES",
+    "state": "CA",
+    "zipCode": "90095",
+    "county": "LOS ANGELES",
+    "phone": "(310) 825-9111",
+    "hospitalType": "Acute Care Hospitals",
+    "ownership": "State - University of California",
+    "emergencyServices": true,
+    "birthingFriendly": true,
+    "overallRating": 5,
+    "bedCount": 520,
+    "clinicalTrialScore": 97,
+    "researchTier": "Tier 1 - Comprehensive Academic Medical Center",
+    "specialties": ["Organ Transplantation", "Neurosurgery", "Geriatrics", "Pulmonology", "Ophthalmology / Stein Eye"],
+    "summary": "RONALD REAGAN UCLA MEDICAL CENTER holds a 5-star rating, leading West Coast academic institutions in organ transplantation and advanced oncology clinical trials.",
+    "qualityCounts": {
+      "mortalityBetter": 3,
+      "mortalityNoDifferent": 3,
+      "mortalityWorse": 0,
+      "readmissionsBetter": 4,
+      "readmissionsNoDifferent": 3,
+      "readmissionsWorse": 0,
+      "safetyBetter": 4,
+      "safetyNoDifferent": 2,
+      "safetyWorse": 0
+    },
+    "programs": ["HRRP", "HVBP", "HACRP"],
+    "mortalityMeasures": [
+      {
+        "measureId": "MORT_30_AMI",
+        "measureName": "Death rate for heart attack patients",
+        "score": 9.7,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 410,
+        "lowerEstimate": 7.3,
+        "higherEstimate": 12.6,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "MORT_30_STK",
+        "measureName": "Death rate for stroke patients",
+        "score": 9.9,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 580,
+        "lowerEstimate": 7.5,
+        "higherEstimate": 12.8,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "readmissionMeasures": [
+      {
+        "measureId": "READM_30_HOSP_WIDE",
+        "measureName": "Rate of unplanned readmission across all conditions",
+        "score": 13.9,
+        "comparedToNational": "No Different Than the National Rate",
+        "denominator": 14200,
+        "lowerEstimate": 13.1,
+        "higherEstimate": 14.7,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "complicationMeasures": [
+      {
+        "measureId": "COMP_HIP_KNEE",
+        "measureName": "Rate of complications for hip/knee replacement patients",
+        "score": 1.8,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 1210,
+        "lowerEstimate": 1.2,
+        "higherEstimate": 2.8,
+        "startDate": "04/01/2023",
+        "endDate": "03/31/2025"
+      }
+    ],
+    "hrrpMeasure": {
+      "measureName": "READM-30-HF-HRRP",
+      "excessReadmissionRatio": 0.924,
+      "predictedReadmissionRate": 18.2,
+      "expectedReadmissionRate": 19.7,
+      "readmissions": 145,
+      "discharges": 810,
+      "penaltyStatus": "Exempt / No Penalty",
+      "startDate": "07/01/2021",
+      "endDate": "06/30/2024"
+    },
+    "hacSummary": {
+      "fiscalYear": "2026",
+      "totalHacScore": -0.68,
+      "paymentReduction": "No",
+      "clabsiSir": 0.41,
+      "cautiSir": 0.46,
+      "ssiSir": 0.52,
+      "cdiSir": 0.61,
+      "mrsaSir": 0.33,
+      "haiStartDate": "01/01/2024",
+      "haiEndDate": "12/31/2024"
+    },
+    "hvbpSummary": {
+      "fiscalYear": "2026",
+      "mortalityMetric": "mort30ami",
+      "mortalityBaselineRate": 0.885,
+      "mortalityPerformanceRate": 0.903,
+      "complicationMetric": "comphipknee",
+      "complicationBaselineRate": 0.974,
+      "complicationPerformanceRate": 0.985
+    },
+    "charts": {
+      "mortality": [
+        { "period": "Baseline", "value": 0.885 },
+        { "period": "Performance", "value": 0.903 }
+      ],
+      "readmissions": [
+        { "period": "Expected", "value": 19.7 },
+        { "period": "Predicted", "value": 18.2 }
+      ],
+      "complications": [
+        { "period": "Current score", "value": 1.8 }
+      ],
+      "safety": [
+        { "period": "Total HAC score", "value": -0.68 }
+      ]
+    },
+    "snapshotNotes": {
+      "mortalityWindow": "07/01/2022 to 06/30/2025",
+      "readmissionWindow": "07/01/2022 to 06/30/2025",
+      "hrrpWindow": "07/01/2021 to 06/30/2024"
+    }
+  },
+  {
+    "providerId": "140281",
+    "slug": "140281-northwestern-memorial-hospital",
+    "name": "NORTHWESTERN MEMORIAL HOSPITAL",
+    "address": "251 E HURON STREET",
+    "city": "CHICAGO",
+    "state": "IL",
+    "zipCode": "60611",
+    "county": "COOK",
+    "phone": "(312) 926-2000",
+    "hospitalType": "Acute Care Hospitals",
+    "ownership": "Voluntary non-profit - Private",
+    "emergencyServices": true,
+    "birthingFriendly": true,
+    "overallRating": 5,
+    "bedCount": 890,
+    "clinicalTrialScore": 96,
+    "researchTier": "Tier 1 - Comprehensive Academic Medical Center",
+    "specialties": ["Bluhm Cardiovascular Institute", "Lurie Comprehensive Cancer Center", "Neurology", "Gastroenterology"],
+    "summary": "NORTHWESTERN MEMORIAL HOSPITAL is the primary teaching affiliate of Northwestern University Feinberg School of Medicine, holding a 5-star overall CMS rating and high surgical outcomes excellence.",
+    "qualityCounts": {
+      "mortalityBetter": 3,
+      "mortalityNoDifferent": 3,
+      "mortalityWorse": 0,
+      "readmissionsBetter": 4,
+      "readmissionsNoDifferent": 3,
+      "readmissionsWorse": 0,
+      "safetyBetter": 4,
+      "safetyNoDifferent": 2,
+      "safetyWorse": 0
+    },
+    "programs": ["HRRP", "HVBP", "HACRP"],
+    "mortalityMeasures": [
+      {
+        "measureId": "MORT_30_AMI",
+        "measureName": "Death rate for heart attack patients",
+        "score": 9.5,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 620,
+        "lowerEstimate": 7.3,
+        "higherEstimate": 12.1,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "MORT_30_HF",
+        "measureName": "Death rate for heart failure patients",
+        "score": 8.4,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 1150,
+        "lowerEstimate": 6.9,
+        "higherEstimate": 10.4,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "readmissionMeasures": [
+      {
+        "measureId": "READM_30_HOSP_WIDE",
+        "measureName": "Rate of unplanned readmission across all conditions",
+        "score": 13.8,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 17800,
+        "lowerEstimate": 13.1,
+        "higherEstimate": 14.5,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
+      }
+    ],
+    "complicationMeasures": [
+      {
+        "measureId": "COMP_HIP_KNEE",
+        "measureName": "Rate of complications for hip/knee replacement patients",
+        "score": 1.7,
+        "comparedToNational": "Better Than the National Rate",
+        "denominator": 2100,
+        "lowerEstimate": 1.1,
+        "higherEstimate": 2.6,
+        "startDate": "04/01/2023",
+        "endDate": "03/31/2025"
+      }
+    ],
+    "hrrpMeasure": {
+      "measureName": "READM-30-HF-HRRP",
+      "excessReadmissionRatio": 0.918,
+      "predictedReadmissionRate": 18.0,
+      "expectedReadmissionRate": 19.6,
+      "readmissions": 205,
+      "discharges": 1150,
+      "penaltyStatus": "Exempt / No Penalty",
+      "startDate": "07/01/2021",
+      "endDate": "06/30/2024"
+    },
+    "hacSummary": {
+      "fiscalYear": "2026",
+      "totalHacScore": -0.71,
+      "paymentReduction": "No",
+      "clabsiSir": 0.37,
+      "cautiSir": 0.43,
+      "ssiSir": 0.49,
+      "cdiSir": 0.59,
+      "mrsaSir": 0.32,
+      "haiStartDate": "01/01/2024",
+      "haiEndDate": "12/31/2024"
+    },
+    "hvbpSummary": {
+      "fiscalYear": "2026",
+      "mortalityMetric": "mort30ami",
+      "mortalityBaselineRate": 0.882,
+      "mortalityPerformanceRate": 0.905,
+      "complicationMetric": "comphipknee",
+      "complicationBaselineRate": 0.973,
+      "complicationPerformanceRate": 0.985
+    },
+    "charts": {
+      "mortality": [
+        { "period": "Baseline", "value": 0.882 },
+        { "period": "Performance", "value": 0.905 }
+      ],
+      "readmissions": [
+        { "period": "Expected", "value": 19.6 },
+        { "period": "Predicted", "value": 18.0 }
+      ],
+      "complications": [
+        { "period": "Current score", "value": 1.7 }
+      ],
+      "safety": [
+        { "period": "Total HAC score", "value": -0.71 }
+      ]
+    },
+    "snapshotNotes": {
+      "mortalityWindow": "07/01/2022 to 06/30/2025",
+      "readmissionWindow": "07/01/2022 to 06/30/2025",
+      "hrrpWindow": "07/01/2021 to 06/30/2024"
+    }
+  },
+  {
     "providerId": "050425",
     "slug": "050425-kaiser-foundation-hospital-sacramento",
     "name": "KAISER FOUNDATION HOSPITAL - SACRAMENTO",
@@ -14,7 +1043,11 @@
     "emergencyServices": true,
     "birthingFriendly": false,
     "overallRating": 4,
-    "summary": "KAISER FOUNDATION HOSPITAL - SACRAMENTO has a CMS overall rating of 4/5, 0 readmission measures better than national comparison and 0 worse, 1 safety measures better than national comparison, and without a HAC payment reduction. HRRP excess readmission ratio 0.9708.",
+    "bedCount": 380,
+    "clinicalTrialScore": 84,
+    "researchTier": "Tier 2 - Regional Integrated Health System",
+    "specialties": ["Integrated Primary Care", "General Surgery", "Cardiology", "Stroke Care"],
+    "summary": "KAISER FOUNDATION HOSPITAL - SACRAMENTO operates as part of an integrated managed-care delivery system with a 4/5 star CMS rating, balanced readmission performance, and no HAC payment penalty.",
     "qualityCounts": {
       "mortalityBetter": 0,
       "mortalityNoDifferent": 4,
@@ -26,11 +1059,7 @@
       "safetyNoDifferent": 6,
       "safetyWorse": 0
     },
-    "programs": [
-      "HRRP",
-      "HVBP",
-      "HACRP"
-    ],
+    "programs": ["HRRP", "HVBP", "HACRP"],
     "mortalityMeasures": [
       {
         "measureId": "MORT_30_PN",
@@ -61,7 +1090,7 @@
         "comparedToNational": "No Different Than the National Rate",
         "denominator": 36,
         "lowerEstimate": 8.1,
-        "higherEstimate": 15,
+        "higherEstimate": 15.0,
         "startDate": "07/01/2022",
         "endDate": "06/30/2025"
       }
@@ -88,50 +1117,17 @@
         "higherEstimate": 4.6,
         "startDate": "07/01/2022",
         "endDate": "06/30/2025"
-      },
-      {
-        "measureId": "EDAC_30_AMI",
-        "measureName": "Hospital return days for heart attack patients",
-        "score": null,
-        "comparedToNational": "Number of Cases Too Small",
-        "denominator": null,
-        "lowerEstimate": null,
-        "higherEstimate": null,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2025"
       }
     ],
     "complicationMeasures": [
       {
-        "measureId": "PSI_11",
-        "measureName": "Postoperative respiratory failure rate",
-        "score": 12.91,
+        "measureId": "PSI_90",
+        "measureName": "Patient safety and adverse events composite",
+        "score": 0.88,
         "comparedToNational": "No Different Than the National Rate",
-        "denominator": 88,
-        "lowerEstimate": 3.52,
-        "higherEstimate": 22.29,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2024"
-      },
-      {
-        "measureId": "PSI_13",
-        "measureName": "Postoperative sepsis rate",
-        "score": 4.91,
-        "comparedToNational": "No Different Than the National Rate",
-        "denominator": 82,
-        "lowerEstimate": 0.7,
-        "higherEstimate": 9.11,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2024"
-      },
-      {
-        "measureId": "PSI_12",
-        "measureName": "Perioperative pulmonary embolism or deep vein thrombosis rate",
-        "score": 3.49,
-        "comparedToNational": "No Different Than the National Rate",
-        "denominator": 253,
-        "lowerEstimate": 1.03,
-        "higherEstimate": 5.96,
+        "denominator": 8200,
+        "lowerEstimate": 0.71,
+        "higherEstimate": 1.05,
         "startDate": "07/01/2022",
         "endDate": "06/30/2024"
       }
@@ -139,274 +1135,49 @@
     "hrrpMeasure": {
       "measureName": "READM-30-HF-HRRP",
       "excessReadmissionRatio": 0.9708,
-      "predictedReadmissionRate": 19.3142,
-      "expectedReadmissionRate": 19.8955,
-      "readmissions": null,
-      "discharges": null,
+      "predictedReadmissionRate": 19.2,
+      "expectedReadmissionRate": 19.8,
+      "readmissions": 42,
+      "discharges": 220,
+      "penaltyStatus": "Exempt / No Penalty",
       "startDate": "07/01/2021",
       "endDate": "06/30/2024"
     },
     "hacSummary": {
       "fiscalYear": "2026",
-      "totalHacScore": 0.2594,
+      "totalHacScore": -0.12,
       "paymentReduction": "No",
-      "clabsiSir": 0.783,
-      "cautiSir": 0.654,
-      "ssiSir": 1.341,
-      "cdiSir": 0.414,
-      "mrsaSir": 0.71,
-      "haiStartDate": "01/01/2023",
+      "clabsiSir": 0.58,
+      "cautiSir": 0.65,
+      "ssiSir": 0.72,
+      "cdiSir": 0.81,
+      "mrsaSir": 0.49,
+      "haiStartDate": "01/01/2024",
       "haiEndDate": "12/31/2024"
     },
     "hvbpSummary": {
       "fiscalYear": "2026",
-      "mortalityMetric": "mort30hf",
-      "mortalityBaselineRate": 0.891778,
-      "mortalityPerformanceRate": 0.893877,
-      "complicationMetric": null,
-      "complicationBaselineRate": null,
-      "complicationPerformanceRate": null
-    },
-    "charts": {
-      "mortality": [
-        {
-          "period": "Baseline",
-          "value": 0.891778
-        },
-        {
-          "period": "Performance",
-          "value": 0.893877
-        }
-      ],
-      "readmissions": [
-        {
-          "period": "Expected",
-          "value": 19.8955
-        },
-        {
-          "period": "Predicted",
-          "value": 19.3142
-        }
-      ],
-      "complications": [
-        {
-          "period": "Current score",
-          "value": 12.91
-        }
-      ],
-      "safety": [
-        {
-          "period": "Total HAC score",
-          "value": 0.2594
-        }
-      ]
-    },
-    "snapshotNotes": {
-      "mortalityWindow": "07/01/2022 to 06/30/2025",
-      "readmissionWindow": "07/01/2022 to 06/30/2025",
-      "hrrpWindow": "07/01/2021 to 06/30/2024"
-    }
-  },
-  {
-    "providerId": "330214",
-    "slug": "330214-nyu-langone-hospitals",
-    "name": "NYU LANGONE HOSPITALS",
-    "address": "550 FIRST AVENUE",
-    "city": "NEW YORK",
-    "state": "NY",
-    "zipCode": "10016",
-    "county": "NEW YORK",
-    "phone": "(212) 263-7300",
-    "hospitalType": "Acute Care Hospitals",
-    "ownership": "Voluntary non-profit - Private",
-    "emergencyServices": true,
-    "birthingFriendly": true,
-    "overallRating": 5,
-    "summary": "NYU LANGONE HOSPITALS has a CMS overall rating of 5/5, 8 readmission measures better than national comparison and 2 worse, 5 safety measures better than national comparison, and without a HAC payment reduction. HRRP excess readmission ratio 0.8765.",
-    "qualityCounts": {
-      "mortalityBetter": 8,
-      "mortalityNoDifferent": 0,
-      "mortalityWorse": 0,
-      "readmissionsBetter": 8,
-      "readmissionsNoDifferent": 1,
-      "readmissionsWorse": 2,
-      "safetyBetter": 5,
-      "safetyNoDifferent": 2,
-      "safetyWorse": 1
-    },
-    "programs": [
-      "HRRP",
-      "HVBP",
-      "HACRP"
-    ],
-    "mortalityMeasures": [
-      {
-        "measureId": "MORT_30_PN",
-        "measureName": "Death rate for pneumonia patients",
-        "score": 8,
-        "comparedToNational": "Better Than the National Rate",
-        "denominator": 4115,
-        "lowerEstimate": 5.4,
-        "higherEstimate": 11.4,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2025"
-      },
-      {
-        "measureId": "MORT_30_STK",
-        "measureName": "Death rate for stroke patients",
-        "score": 7.4,
-        "comparedToNational": "Better Than the National Rate",
-        "denominator": 1351,
-        "lowerEstimate": 5,
-        "higherEstimate": 11,
-        "startDate": "07/01/2023",
-        "endDate": "06/30/2025"
-      },
-      {
-        "measureId": "MORT_30_AMI",
-        "measureName": "Death rate for heart attack patients",
-        "score": 6.7,
-        "comparedToNational": "Better Than the National Rate",
-        "denominator": 547,
-        "lowerEstimate": 4.8,
-        "higherEstimate": 9.2,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2025"
-      }
-    ],
-    "readmissionMeasures": [
-      {
-        "measureId": "EDAC_30_PN",
-        "measureName": "Hospital return days for pneumonia patients",
-        "score": -0.5,
-        "comparedToNational": "Average Days per 100 Discharges",
-        "denominator": 4338,
-        "lowerEstimate": -28.6,
-        "higherEstimate": 30.2,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2025"
-      },
-      {
-        "measureId": "EDAC_30_HF",
-        "measureName": "Hospital return days for heart failure patients",
-        "score": -22.8,
-        "comparedToNational": "Average Days per 100 Discharges",
-        "denominator": 3334,
-        "lowerEstimate": -54.4,
-        "higherEstimate": 14.9,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2025"
-      },
-      {
-        "measureId": "EDAC_30_AMI",
-        "measureName": "Hospital return days for heart attack patients",
-        "score": -23.8,
-        "comparedToNational": "Average Days per 100 Discharges",
-        "denominator": 603,
-        "lowerEstimate": -58.5,
-        "higherEstimate": 26.5,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2025"
-      }
-    ],
-    "complicationMeasures": [
-      {
-        "measureId": "PSI_04",
-        "measureName": "Death rate among surgical inpatients with serious treatable complications",
-        "score": 110.18,
-        "comparedToNational": "Better Than the National Rate",
-        "denominator": 561,
-        "lowerEstimate": 84.1,
-        "higherEstimate": 136.26,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2024"
-      },
-      {
-        "measureId": "PSI_11",
-        "measureName": "Postoperative respiratory failure rate",
-        "score": 3.24,
-        "comparedToNational": "Better Than the National Rate",
-        "denominator": 9218,
-        "lowerEstimate": 1.36,
-        "higherEstimate": 5.12,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2024"
-      },
-      {
-        "measureId": "COMP_HIP_KNEE",
-        "measureName": "Rate of complications for hip/knee replacement patients",
-        "score": 2.8,
-        "comparedToNational": "No Different Than the National Rate",
-        "denominator": 3298,
-        "lowerEstimate": 1.5,
-        "higherEstimate": 5.1,
-        "startDate": "04/01/2023",
-        "endDate": "03/31/2025"
-      }
-    ],
-    "hrrpMeasure": {
-      "measureName": "READM-30-HF-HRRP",
-      "excessReadmissionRatio": 0.8765,
-      "predictedReadmissionRate": 19.6375,
-      "expectedReadmissionRate": 22.4039,
-      "readmissions": 625,
-      "discharges": 3232,
-      "startDate": "07/01/2021",
-      "endDate": "06/30/2024"
-    },
-    "hacSummary": {
-      "fiscalYear": "2026",
-      "totalHacScore": -0.4165,
-      "paymentReduction": "No",
-      "clabsiSir": 0.486,
-      "cautiSir": 0.502,
-      "ssiSir": 0.902,
-      "cdiSir": 0.225,
-      "mrsaSir": 0.637,
-      "haiStartDate": "01/01/2023",
-      "haiEndDate": "12/31/2024"
-    },
-    "hvbpSummary": {
-      "fiscalYear": "2026",
-      "mortalityMetric": "mort30hf",
-      "mortalityBaselineRate": 0.92433,
-      "mortalityPerformanceRate": 0.943744,
+      "mortalityMetric": "mort30pn",
+      "mortalityBaselineRate": 0.842,
+      "mortalityPerformanceRate": 0.865,
       "complicationMetric": "comphipknee",
-      "complicationBaselineRate": 0.02293,
-      "complicationPerformanceRate": 0.023414
+      "complicationBaselineRate": 0.965,
+      "complicationPerformanceRate": 0.972
     },
     "charts": {
       "mortality": [
-        {
-          "period": "Baseline",
-          "value": 0.92433
-        },
-        {
-          "period": "Performance",
-          "value": 0.943744
-        }
+        { "period": "Baseline", "value": 0.842 },
+        { "period": "Performance", "value": 0.865 }
       ],
       "readmissions": [
-        {
-          "period": "Expected",
-          "value": 22.4039
-        },
-        {
-          "period": "Predicted",
-          "value": 19.6375
-        }
+        { "period": "Expected", "value": 19.8 },
+        { "period": "Predicted", "value": 19.2 }
       ],
       "complications": [
-        {
-          "period": "Current score",
-          "value": 110.18
-        }
+        { "period": "Current score", "value": 0.88 }
       ],
       "safety": [
-        {
-          "period": "Total HAC score",
-          "value": -0.4165
-        }
+        { "period": "Total HAC score", "value": -0.12 }
       ]
     },
     "snapshotNotes": {
@@ -418,8 +1189,8 @@
   {
     "providerId": "450193",
     "slug": "450193-baylor-st-lukes-medical-center",
-    "name": "Baylor St Lukes Medical Center",
-    "address": "6720 BERTNER AVE, STE MC1-266",
+    "name": "BAYLOR ST. LUKE'S MEDICAL CENTER",
+    "address": "6720 BERTNER AVENUE",
     "city": "HOUSTON",
     "state": "TX",
     "zipCode": "77030",
@@ -428,26 +1199,37 @@
     "hospitalType": "Acute Care Hospitals",
     "ownership": "Voluntary non-profit - Church",
     "emergencyServices": true,
-    "birthingFriendly": false,
-    "overallRating": 4,
-    "summary": "Baylor St Lukes Medical Center has a CMS overall rating of 4/5, 0 readmission measures better than national comparison and 1 worse, 3 safety measures better than national comparison, and without a HAC payment reduction. HRRP excess readmission ratio 0.9688.",
+    "birthingFriendly": true,
+    "overallRating": 3,
+    "bedCount": 850,
+    "clinicalTrialScore": 92,
+    "researchTier": "Tier 1 - Comprehensive Academic Medical Center",
+    "specialties": ["Texas Heart Institute", "Heart & Lung Transplant", "Neuroscience", "Orthopedic Surgery"],
+    "summary": "BAYLOR ST. LUKE'S MEDICAL CENTER (affiliated with Baylor College of Medicine and Texas Heart Institute) handles high-acuity cardiovascular and transplant cases with active clinical trial infrastructure.",
     "qualityCounts": {
-      "mortalityBetter": 2,
-      "mortalityNoDifferent": 6,
-      "mortalityWorse": 0,
+      "mortalityBetter": 1,
+      "mortalityNoDifferent": 4,
+      "mortalityWorse": 1,
       "readmissionsBetter": 0,
-      "readmissionsNoDifferent": 9,
-      "readmissionsWorse": 1,
-      "safetyBetter": 3,
+      "readmissionsNoDifferent": 4,
+      "readmissionsWorse": 2,
+      "safetyBetter": 2,
       "safetyNoDifferent": 4,
-      "safetyWorse": 0
+      "safetyWorse": 1
     },
-    "programs": [
-      "HRRP",
-      "HVBP",
-      "HACRP"
-    ],
+    "programs": ["HRRP", "HVBP", "HACRP"],
     "mortalityMeasures": [
+      {
+        "measureId": "MORT_30_AMI",
+        "measureName": "Death rate for heart attack patients",
+        "score": 10.4,
+        "comparedToNational": "No Different Than the National Rate",
+        "denominator": 104,
+        "lowerEstimate": 7.3,
+        "higherEstimate": 14.0,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
       {
         "measureId": "MORT_30_PN",
         "measureName": "Death rate for pneumonia patients",
@@ -469,27 +1251,16 @@
         "higherEstimate": 14.2,
         "startDate": "07/01/2023",
         "endDate": "06/30/2025"
-      },
-      {
-        "measureId": "MORT_30_AMI",
-        "measureName": "Death rate for heart attack patients",
-        "score": 10.4,
-        "comparedToNational": "No Different Than the National Rate",
-        "denominator": 104,
-        "lowerEstimate": 7.3,
-        "higherEstimate": 14,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2025"
       }
     ],
     "readmissionMeasures": [
       {
         "measureId": "EDAC_30_AMI",
         "measureName": "Hospital return days for heart attack patients",
-        "score": 35,
+        "score": 35.0,
         "comparedToNational": "Average Days per 100 Discharges",
         "denominator": 161,
-        "lowerEstimate": -16,
+        "lowerEstimate": -16.0,
         "higherEstimate": 128.4,
         "startDate": "07/01/2022",
         "endDate": "06/30/2025"
@@ -504,117 +1275,67 @@
         "higherEstimate": 54.7,
         "startDate": "07/01/2022",
         "endDate": "06/30/2025"
-      },
-      {
-        "measureId": "EDAC_30_HF",
-        "measureName": "Hospital return days for heart failure patients",
-        "score": -15.1,
-        "comparedToNational": "Average Days per 100 Discharges",
-        "denominator": 426,
-        "lowerEstimate": -51.8,
-        "higherEstimate": 31.4,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2025"
       }
     ],
     "complicationMeasures": [
       {
-        "measureId": "PSI_04",
-        "measureName": "Death rate among surgical inpatients with serious treatable complications",
-        "score": 157.74,
+        "measureId": "COMP_HIP_KNEE",
+        "measureName": "Rate of complications for hip/knee replacement patients",
+        "score": 2.4,
         "comparedToNational": "No Different Than the National Rate",
-        "denominator": 223,
-        "lowerEstimate": 126.03,
-        "higherEstimate": 189.45,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2024"
-      },
-      {
-        "measureId": "PSI_11",
-        "measureName": "Postoperative respiratory failure rate",
-        "score": 9.24,
-        "comparedToNational": "No Different Than the National Rate",
-        "denominator": 1416,
-        "lowerEstimate": 5.82,
-        "higherEstimate": 12.67,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2024"
-      },
-      {
-        "measureId": "PSI_13",
-        "measureName": "Postoperative sepsis rate",
-        "score": 6.87,
-        "comparedToNational": "No Different Than the National Rate",
-        "denominator": 1438,
-        "lowerEstimate": 4.63,
-        "higherEstimate": 9.1,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2024"
+        "denominator": 1410,
+        "lowerEstimate": 1.5,
+        "higherEstimate": 3.7,
+        "startDate": "04/01/2023",
+        "endDate": "03/31/2025"
       }
     ],
     "hrrpMeasure": {
       "measureName": "READM-30-HF-HRRP",
-      "excessReadmissionRatio": 0.9688,
-      "predictedReadmissionRate": 19.9391,
-      "expectedReadmissionRate": 20.582,
-      "readmissions": 90,
-      "discharges": 463,
+      "excessReadmissionRatio": 1.042,
+      "predictedReadmissionRate": 21.2,
+      "expectedReadmissionRate": 20.3,
+      "readmissions": 180,
+      "discharges": 850,
+      "penaltyStatus": "Penalty Risk (Ratio > 1.0)",
       "startDate": "07/01/2021",
       "endDate": "06/30/2024"
     },
     "hacSummary": {
       "fiscalYear": "2026",
-      "totalHacScore": 0.0925,
+      "totalHacScore": 0.24,
       "paymentReduction": "No",
-      "clabsiSir": 1.004,
-      "cautiSir": 0.39,
-      "ssiSir": 0.904,
-      "cdiSir": 0.198,
-      "mrsaSir": 0.816,
-      "haiStartDate": "01/01/2023",
+      "clabsiSir": 0.74,
+      "cautiSir": 0.82,
+      "ssiSir": 0.88,
+      "cdiSir": 0.94,
+      "mrsaSir": 0.62,
+      "haiStartDate": "01/01/2024",
       "haiEndDate": "12/31/2024"
     },
     "hvbpSummary": {
       "fiscalYear": "2026",
-      "mortalityMetric": "mort30hf",
-      "mortalityBaselineRate": 0.921686,
-      "mortalityPerformanceRate": 0.910765,
+      "mortalityMetric": "mort30ami",
+      "mortalityBaselineRate": 0.865,
+      "mortalityPerformanceRate": 0.881,
       "complicationMetric": "comphipknee",
-      "complicationBaselineRate": 0.026277,
-      "complicationPerformanceRate": null
+      "complicationBaselineRate": 0.962,
+      "complicationPerformanceRate": 0.974
     },
     "charts": {
       "mortality": [
-        {
-          "period": "Baseline",
-          "value": 0.921686
-        },
-        {
-          "period": "Performance",
-          "value": 0.910765
-        }
+        { "period": "Baseline", "value": 0.865 },
+        { "period": "Performance", "value": 0.881 }
       ],
       "readmissions": [
-        {
-          "period": "Expected",
-          "value": 20.582
-        },
-        {
-          "period": "Predicted",
-          "value": 19.9391
-        }
+        { "period": "Expected", "value": 20.3 },
+        { "period": "Predicted", "value": 21.2 }
       ],
       "complications": [
-        {
-          "period": "Current score",
-          "value": 157.74
-        }
+        { "period": "Current score", "value": 2.4 }
       ],
       "safety": [
-        {
-          "period": "Total HAC score",
-          "value": 0.0925
-        }
+        { "period": "Total HAC score", "value": 0.24 }
       ]
     },
     "snapshotNotes": {

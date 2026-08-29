@@ -10,8 +10,18 @@ import {
 } from "../lib/data-transformers.js";
 
 const snapshotDir = path.join(process.cwd(), "data", "2026-05");
-const selectedHospitalIds = ["050425", "330214", "450193"];
-const selectedDeviceCodes = ["FRN", "QSN", "MNH"];
+const selectedHospitalIds = [
+  "330214", // NYU Langone Hospitals (NY)
+  "360180", // Cleveland Clinic (OH)
+  "240010", // The Johns Hopkins Hospital (MD)
+  "220071", // Massachusetts General Hospital (MA)
+  "240004", // Mayo Clinic Hospital Rochester (MN)
+  "050262", // Ronald Reagan UCLA Medical Center (CA)
+  "140281", // Northwestern Memorial Hospital (IL)
+  "050425", // Kaiser Foundation Hospital Sacramento (CA)
+  "450193", // Baylor St. Luke's Medical Center (TX)
+];
+const selectedDeviceCodes = ["FRN", "NIQ", "NVN", "KWP", "NAY", "OQG", "QSN", "MNH"];
 const deviceYearWindows = [2024, 2025, 2026];
 
 const cmsDatasetUrls = {

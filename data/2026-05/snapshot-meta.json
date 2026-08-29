@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-08-29T06:35:38.260Z",
-  "hospitalsUpdated": 3,
-  "devicesUpdated": 3,
+  "generatedAt": "2026-08-29T12:00:00.000Z",
+  "hospitalsUpdated": 9,
+  "devicesUpdated": 8,
+  "therapeuticAreas": [
+    "Interventional Cardiology",
+    "Cardiac Electrophysiology",
+    "Orthopedic Joint Reconstruction",
+    "Spinal Orthopedic Implants",
+    "Surgical Robotics & Minimally Invasive",
+    "Neurovascular Interventions",
+    "Infusion & Medication Delivery",
+    "Molecular Diagnostics & Infectious Disease"
+  ],
   "apiKeysRequired": {
     "cms": false,
     "openFda": false,

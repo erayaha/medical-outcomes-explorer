@@ -2,6 +2,9 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import HomePage from '@/app/page';
 import HospitalsPage from '@/app/hospitals/page';
+import ComparePage from '@/app/compare/page';
+import ClinicalTrialsPage from '@/app/clinical-trials/page';
+import ResearchApiPage from '@/app/research-api/page';
 import OutcomesOverTimePage from '@/app/outcomes-over-time/page';
 import InterventionsPage from '@/app/interventions/page';
 import DevicesPage from '@/app/devices-fda/page';
@@ -18,10 +21,25 @@ jest.mock('@/components/live-device-feed', () => ({
 }));
 
 describe('core pages', () => {
-  test('home page renders real-data positioning', () => {
+  test('home page renders executive dashboard and stakeholder mode', () => {
     render(<HomePage />);
     expect(screen.getByRole('heading', { name: /medical outcomes explorer/i })).toBeInTheDocument();
-    expect(screen.getByText(/real CMS hospital quality records/i)).toBeInTheDocument();
+    expect(screen.getByText(/Stakeholder Intelligence Mode/i)).toBeInTheDocument();
+  });
+
+  test('compare page renders multi-hospital comparator', () => {
+    render(<ComparePage />);
+    expect(screen.getByRole('heading', { name: /Hospital Quality & Penalty Risk Comparator/i })).toBeInTheDocument();
+  });
+
+  test('clinical trials page renders site qualification portal', () => {
+    render(<ClinicalTrialsPage />);
+    expect(screen.getByRole('heading', { name: /Clinical Trial Site Qualification & Capacity Explorer/i })).toBeInTheDocument();
+  });
+
+  test('research api page renders open data workbench', () => {
+    render(<ResearchApiPage />);
+    expect(screen.getByRole('heading', { name: /Open Research Data Workbench & API Catalog/i })).toBeInTheDocument();
   });
 
   test('hospitals page renders tracked provider content', () => {
@@ -41,9 +59,9 @@ describe('core pages', () => {
     expect(screen.getAllByText(/HRRP/).length).toBeGreaterThan(0);
   });
 
-  test('device pages render FDA data', () => {
+  test('device pages render FDA surveillance matrix', () => {
     render(<DevicesPage />);
-    expect(screen.getByRole('heading', { name: /Explore tracked FDA 510\(k\), recall, and adverse-event timelines/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /FDA Medical Device Safety & 510\(k\) Intelligence/i })).toBeInTheDocument();
     render(<AdverseEventsPage />);
     expect(screen.getByRole('heading', { name: /Adverse event and recall explorer/i })).toBeInTheDocument();
   });

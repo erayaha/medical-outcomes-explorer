@@ -5,31 +5,42 @@ describe('Static Export E2E Integrity', () => {
   const outDir = path.join(process.cwd(), 'out');
 
   beforeAll(() => {
-    // Check if ./out directory exists (run after yarn build)
-    if (!fs.existsSync(outDir)) {
-      // Build static export if not already built
-      const { execSync } = require('node:child_process');
-      execSync('yarn build', {
-        env: {
-          ...process.env,
-          PAGES_BASE_PATH: '/medical-outcomes-explorer',
-          SITE_URL: 'https://erayaha.github.io/medical-outcomes-explorer',
-        },
-        stdio: 'pipe',
-      });
-    }
+    // Build static export to ensure ./out is fresh
+    const { execSync } = require('node:child_process');
+    execSync('yarn build', {
+      env: {
+        ...process.env,
+        PAGES_BASE_PATH: '/medical-outcomes-explorer',
+        SITE_URL: 'https://erayaha.github.io/medical-outcomes-explorer',
+      },
+      stdio: 'pipe',
+    });
   });
 
   const expectedRoutes = [
     'index.html',
+    'compare/index.html',
+    'clinical-trials/index.html',
+    'research-api/index.html',
     'hospitals/index.html',
-    'hospitals/050425-kaiser-foundation-hospital-sacramento/index.html',
     'hospitals/330214-nyu-langone-hospitals/index.html',
+    'hospitals/360180-cleveland-clinic/index.html',
+    'hospitals/240010-the-johns-hopkins-hospital/index.html',
+    'hospitals/220071-massachusetts-general-hospital/index.html',
+    'hospitals/240004-mayo-clinic-hospital-rochester/index.html',
+    'hospitals/050262-ronald-reagan-ucla-medical-center/index.html',
+    'hospitals/140281-northwestern-memorial-hospital/index.html',
+    'hospitals/050425-kaiser-foundation-hospital-sacramento/index.html',
     'hospitals/450193-baylor-st-lukes-medical-center/index.html',
     'outcomes-over-time/index.html',
     'interventions/index.html',
     'devices-fda/index.html',
     'devices-fda/FRN/index.html',
+    'devices-fda/NIQ/index.html',
+    'devices-fda/NVN/index.html',
+    'devices-fda/KWP/index.html',
+    'devices-fda/NAY/index.html',
+    'devices-fda/OQG/index.html',
     'devices-fda/QSN/index.html',
     'devices-fda/MNH/index.html',
     'adverse-events/index.html',
@@ -60,6 +71,9 @@ describe('Static Export E2E Integrity', () => {
     expect(sitemapContent).toContain('https://erayaha.github.io/medical-outcomes-explorer');
     expect(sitemapContent).toContain('/hospitals/330214-nyu-langone-hospitals');
     expect(sitemapContent).toContain('/devices-fda/FRN');
+    expect(sitemapContent).toContain('/compare');
+    expect(sitemapContent).toContain('/clinical-trials');
+    expect(sitemapContent).toContain('/research-api');
   });
 
   test('robots.txt allows search engine crawlers and points to sitemap', () => {

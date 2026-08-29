@@ -1,26 +1,42 @@
 [
   {
     "productCode": "FRN",
-    "measureIds": [
-      "complications",
-      "readmissions"
-    ],
-    "rationale": "Infusion pump recalls and adverse-event reports are displayed next to CMS safety and readmission content because medication-delivery device failures can affect inpatient safety workflows."
+    "measureIds": ["complications", "readmissions"],
+    "rationale": "Infusion pump recalls and adverse-event reports are displayed next to CMS safety and readmission content because medication-delivery device failures and dosing anomalies directly influence inpatient safety workflows, adverse drug events, and unplanned return days."
+  },
+  {
+    "productCode": "NIQ",
+    "measureIds": ["mortality", "readmissions", "complications"],
+    "rationale": "Drug-eluting coronary stent surveillance (stent thrombosis, restenosis, delivery issues) directly correlates with 30-day AMI mortality (MORT_30_AMI), post-PCI emergency readmissions, and cardiovascular surgical outcomes."
+  },
+  {
+    "productCode": "NVN",
+    "measureIds": ["mortality", "readmissions"],
+    "rationale": "Implantable pacemaker telemetry and lead integrity signals align with heart failure mortality (MORT_30_HF) and unplanned cardiac electrophysiology hospital visits."
+  },
+  {
+    "productCode": "KWP",
+    "measureIds": ["complications", "readmissions"],
+    "rationale": "Total knee replacement implant performance metrics (aseptic loosening, liner wear) tie directly to CMS COMP_HIP_KNEE complication rates and orthopedic surgical revision readmissions."
+  },
+  {
+    "productCode": "NAY",
+    "measureIds": ["complications", "mortality"],
+    "rationale": "Robotic surgical system instrument clutch and force-feedback telemetry signals directly map to inpatient surgical safety composites (PSI_90), accidental punctures, and perioperative outcomes."
+  },
+  {
+    "productCode": "OQG",
+    "measureIds": ["mortality", "complications"],
+    "rationale": "Neurovascular flow diverter apposition and thrombosis telemetry map to stroke mortality (MORT_30_STK) and perioperative neurological complications."
   },
   {
     "productCode": "QSN",
-    "measureIds": [
-      "complications",
-      "mortality"
-    ],
-    "rationale": "Joint infection diagnostic device activity is shown with complications and mortality context because infections and delayed diagnosis can affect surgical outcomes."
+    "measureIds": ["complications", "mortality"],
+    "rationale": "Joint infection multiplex diagnostic activity is shown with complications and mortality context because pathogen identification speed and antibiotic resistance tracking prevent septic revisions and improve surgical recovery."
   },
   {
     "productCode": "MNH",
-    "measureIds": [
-      "readmissions",
-      "complications"
-    ],
-    "rationale": "Spinal fixation device activity is shown with readmission and complication context because orthopedic implants can influence post-surgical complications and return visits."
+    "measureIds": ["readmissions", "complications"],
+    "rationale": "Spinal fixation device activity is shown with readmission and complication context because orthopedic implants influence post-surgical stability, pseudarthrosis, and return visits."
   }
 ]

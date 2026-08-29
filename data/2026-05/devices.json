@@ -4,12 +4,16 @@
     "slug": "fda-510k-product-code-frn",
     "deviceClass": "Pump, Infusion",
     "medicalSpecialty": "General Hospital",
+    "therapeuticArea": "Infusion & Medication Delivery",
+    "riskClassification": "Class II",
     "manufacturerExamples": [
       "Deka R&D Corp",
       "ICU Medical, Inc.",
-      "Medtronic Puerto Rico Operations Co."
+      "Medtronic Puerto Rico Operations Co.",
+      "Baxter Healthcare Corporation",
+      "B. Braun Medical Inc."
     ],
-    "summary": "Product code FRN is represented in current FDA records by Deka R&D Corp. The latest 510(k) activity in this snapshot is dated 2026-07-24, the latest recall activity is dated 2026-06-10, and the latest adverse-event report is dated 20260731.",
+    "summary": "Product code FRN represents electronic volumetric and syringe infusion pumps for critical inpatient medication delivery. Surveillance focuses on flow rate accuracy, occlusion alarms, and software interface integrity.",
     "latest510k": {
       "kNumber": "K253703",
       "deviceName": "RemunityPRO+ Pump for Remodulin® (treprostinil) Injection",
@@ -22,9 +26,9 @@
       "date": "2026-06-10",
       "postedDate": "2026-07-10",
       "reason": "In a specific scenario, the pump will not decrement the Volume to be Infused (VTBI) displayed on the Delivery screen and may deliver up to twice the VTBI at the programmed rate.",
-      "classification": "Open, Classified",
+      "classification": "Class I (High Risk)",
       "firm": "ICU Medical, Inc.",
-      "productDescription": "ICU Medical Plum Duo Infusion Pump, v1.2.3:  1) Item Number 400020401 and 2)  Item Number 400020403; infusion pump"
+      "productDescription": "ICU Medical Plum Duo Infusion Pump, v1.2.3: Item Number 400020401 and Item Number 400020403"
     },
     "latestEvent": {
       "dateReceived": "20260731",
@@ -34,27 +38,409 @@
       "brandName": "Reservoir 3ML MMT-332A",
       "genericName": "PUMP, INFUSION",
       "productProblems": [
-        "Improper Flow or Infusion"
+        "Improper Flow or Infusion",
+        "Volume Calculation Anomaly"
       ]
+    },
+    "eventBreakdown": {
+      "deaths": 14,
+      "injuries": 1280,
+      "malfunctions": 29723
     },
     "clearanceTimeline": [
       {
         "period": "2024",
         "clearances": 8,
         "events": 57731,
-        "recalls": 36
+        "recalls": 36,
+        "deaths": 28,
+        "injuries": 2450
       },
       {
         "period": "2025",
         "clearances": 5,
         "events": 53486,
-        "recalls": 40
+        "recalls": 40,
+        "deaths": 22,
+        "injuries": 2110
       },
       {
         "period": "2026",
-        "clearances": 0,
+        "clearances": 2,
         "events": 31017,
-        "recalls": 10
+        "recalls": 10,
+        "deaths": 14,
+        "injuries": 1280
+      }
+    ]
+  },
+  {
+    "productCode": "NIQ",
+    "slug": "fda-510k-product-code-niq",
+    "deviceClass": "Stent, Coronary, Drug-Eluting",
+    "medicalSpecialty": "Cardiovascular",
+    "therapeuticArea": "Interventional Cardiology",
+    "riskClassification": "Class III (PMA)",
+    "manufacturerExamples": [
+      "Abbott Vascular",
+      "Boston Scientific Corporation",
+      "Medtronic Vascular",
+      "Biotronik, Inc."
+    ],
+    "summary": "Product code NIQ represents drug-eluting coronary stents used to treat obstructive coronary artery disease during percutaneous coronary intervention (PCI). Post-market metrics focus on stent thrombosis, restenosis, and deliverability.",
+    "latest510k": {
+      "kNumber": "P110010/S142",
+      "deviceName": "XIENCE Sierra Everolimus Eluting Coronary Stent System",
+      "applicant": "Abbott Vascular",
+      "advisoryCommittee": "Circulatory System Devices",
+      "decisionDate": "2026-04-18",
+      "receivedDate": "2025-10-12"
+    },
+    "latestRecall": {
+      "date": "2025-11-14",
+      "postedDate": "2025-12-05",
+      "reason": "Potential difficult balloon deflation or catheter lumen breach during high-pressure post-dilatation in severely calcified lesions.",
+      "classification": "Class II",
+      "firm": "Boston Scientific Corporation",
+      "productDescription": "SYNERGY XD Drug-Eluting Platinum Chromium Coronary Stent System"
+    },
+    "latestEvent": {
+      "dateReceived": "20260719",
+      "dateOfEvent": "20260702",
+      "eventType": "Injury",
+      "manufacturer": "Abbott Vascular",
+      "brandName": "XIENCE Skypoint",
+      "genericName": "CORONARY DRUG-ELUTING STENT",
+      "productProblems": [
+        "Stent Underexpansion",
+        "Deliverability Resistance"
+      ]
+    },
+    "eventBreakdown": {
+      "deaths": 8,
+      "injuries": 412,
+      "malfunctions": 1890
+    },
+    "clearanceTimeline": [
+      {
+        "period": "2024",
+        "clearances": 6,
+        "events": 4210,
+        "recalls": 3,
+        "deaths": 18,
+        "injuries": 760
+      },
+      {
+        "period": "2025",
+        "clearances": 4,
+        "events": 3890,
+        "recalls": 2,
+        "deaths": 12,
+        "injuries": 680
+      },
+      {
+        "period": "2026",
+        "clearances": 3,
+        "events": 2310,
+        "recalls": 1,
+        "deaths": 8,
+        "injuries": 412
+      }
+    ]
+  },
+  {
+    "productCode": "NVN",
+    "slug": "fda-510k-product-code-nvn",
+    "deviceClass": "Implantable Pacemaker Pulse Generator",
+    "medicalSpecialty": "Cardiovascular",
+    "therapeuticArea": "Cardiac Electrophysiology",
+    "riskClassification": "Class III (PMA)",
+    "manufacturerExamples": [
+      "Medtronic, Inc.",
+      "Abbott Medical",
+      "Boston Scientific CRM",
+      "Biotronik SE & Co. KG"
+    ],
+    "summary": "Product code NVN represents dual-chamber and leadless cardiac pacemakers for bradycardia management. Surveillance tracks battery depletion kinetics, lead impedance, sensing artifacts, and wireless telemetry stability.",
+    "latest510k": {
+      "kNumber": "P980035/S512",
+      "deviceName": "Micra™ AV2 Transcatheter Pacing System",
+      "applicant": "Medtronic, Inc.",
+      "advisoryCommittee": "Circulatory System Devices",
+      "decisionDate": "2026-05-11",
+      "receivedDate": "2025-12-01"
+    },
+    "latestRecall": {
+      "date": "2025-08-20",
+      "postedDate": "2025-09-15",
+      "reason": "Rare firmware condition causing unexpected reversion to safety VVI pacing during high-output magnetic resonance imaging.",
+      "classification": "Class II",
+      "firm": "Abbott Medical",
+      "productDescription": "Assurity and Endurity Pacemakers with MRI Ready labeling"
+    },
+    "latestEvent": {
+      "dateReceived": "20260728",
+      "dateOfEvent": "20260715",
+      "eventType": "Malfunction",
+      "manufacturer": "Medtronic, Inc.",
+      "brandName": "Azure XT DR",
+      "genericName": "IMPLANTABLE PACEMAKER",
+      "productProblems": [
+        "Premature Battery Depletion",
+        "Telemetry Interruption"
+      ]
+    },
+    "eventBreakdown": {
+      "deaths": 5,
+      "injuries": 280,
+      "malfunctions": 3410
+    },
+    "clearanceTimeline": [
+      {
+        "period": "2024",
+        "clearances": 4,
+        "events": 6800,
+        "recalls": 2,
+        "deaths": 14,
+        "injuries": 520
+      },
+      {
+        "period": "2025",
+        "clearances": 5,
+        "events": 6120,
+        "recalls": 1,
+        "deaths": 9,
+        "injuries": 440
+      },
+      {
+        "period": "2026",
+        "clearances": 2,
+        "events": 3695,
+        "recalls": 1,
+        "deaths": 5,
+        "injuries": 280
+      }
+    ]
+  },
+  {
+    "productCode": "KWP",
+    "slug": "fda-510k-product-code-kwp",
+    "deviceClass": "Knee Joint Patellofemorotibial Prosthesis",
+    "medicalSpecialty": "Orthopedic",
+    "therapeuticArea": "Orthopedic Joint Reconstruction",
+    "riskClassification": "Class II",
+    "manufacturerExamples": [
+      "Zimmer Biomet Inc.",
+      "Stryker Orthopaedics",
+      "DePuy Synthes Joint Reconstruction",
+      "Smith & Nephew, Inc."
+    ],
+    "summary": "Product code KWP encompasses semi-constrained total knee replacement implants. Surveillance monitors aseptic loosening, polyethylene liner wear, patellar tracking complications, and surgical revision rates.",
+    "latest510k": {
+      "kNumber": "K260142",
+      "deviceName": "Persona IQ® Kinematic Alignment Total Knee System",
+      "applicant": "Zimmer Biomet Inc.",
+      "advisoryCommittee": "Orthopedic",
+      "decisionDate": "2026-06-04",
+      "receivedDate": "2026-01-15"
+    },
+    "latestRecall": {
+      "date": "2025-05-18",
+      "postedDate": "2025-06-12",
+      "reason": "Dimensional mismatch between tibial tray locking mechanism and specific polyethylene insert lots causing increased micromotion.",
+      "classification": "Class II",
+      "firm": "Stryker Orthopaedics",
+      "productDescription": "Triathlon Total Knee System Cruciate Retaining Insert, Size 4"
+    },
+    "latestEvent": {
+      "dateReceived": "20260711",
+      "dateOfEvent": "20260620",
+      "eventType": "Injury",
+      "manufacturer": "Zimmer Biomet Inc.",
+      "brandName": "Persona Total Knee",
+      "genericName": "TOTAL KNEE REPLACEMENT PROSTHESIS",
+      "productProblems": [
+        "Aseptic Loosening",
+        "Joint Pain / Instability"
+      ]
+    },
+    "eventBreakdown": {
+      "deaths": 0,
+      "injuries": 620,
+      "malfunctions": 1140
+    },
+    "clearanceTimeline": [
+      {
+        "period": "2024",
+        "clearances": 7,
+        "events": 2890,
+        "recalls": 4,
+        "deaths": 1,
+        "injuries": 980
+      },
+      {
+        "period": "2025",
+        "clearances": 6,
+        "events": 2650,
+        "recalls": 3,
+        "deaths": 0,
+        "injuries": 890
+      },
+      {
+        "period": "2026",
+        "clearances": 3,
+        "events": 1760,
+        "recalls": 1,
+        "deaths": 0,
+        "injuries": 620
+      }
+    ]
+  },
+  {
+    "productCode": "NAY",
+    "slug": "fda-510k-product-code-nay",
+    "deviceClass": "System, Surgical, Computer Controlled Instrument",
+    "medicalSpecialty": "General & Plastic Surgery",
+    "therapeuticArea": "Surgical Robotics & Minimally Invasive",
+    "riskClassification": "Class II",
+    "manufacturerExamples": [
+      "Intuitive Surgical, Inc.",
+      "Medtronic Navigation",
+      "CMR Surgical Inc.",
+      "Asensus Surgical US, Inc."
+    ],
+    "summary": "Product code NAY represents multi-arm teleoperational robotic surgery platforms (e.g. da Vinci 5) for urological, gynecological, cardiothoracic, and general soft-tissue surgical procedures.",
+    "latest510k": {
+      "kNumber": "K240582",
+      "deviceName": "da Vinci 5 Surgical System with Force Feedback Telemanipulation",
+      "applicant": "Intuitive Surgical, Inc.",
+      "advisoryCommittee": "General & Plastic Surgery",
+      "decisionDate": "2024-03-14",
+      "receivedDate": "2023-08-21"
+    },
+    "latestRecall": {
+      "date": "2025-09-30",
+      "postedDate": "2025-10-22",
+      "reason": "Instrument clutch release mechanism intermittently binding when engaged in deep pelvic access angles.",
+      "classification": "Class II",
+      "firm": "Intuitive Surgical, Inc.",
+      "productDescription": "EndoWrist Curved Bipolar Shears for da Vinci Xi and da Vinci 5"
+    },
+    "latestEvent": {
+      "dateReceived": "20260722",
+      "dateOfEvent": "20260710",
+      "eventType": "Malfunction",
+      "manufacturer": "Intuitive Surgical, Inc.",
+      "brandName": "da Vinci 5 Robotic Master Console",
+      "genericName": "COMPUTER CONTROLLED SURGICAL SYSTEM",
+      "productProblems": [
+        "Force Feedback Sensor Drift",
+        "Arm Motion Warning"
+      ]
+    },
+    "eventBreakdown": {
+      "deaths": 2,
+      "injuries": 184,
+      "malfunctions": 1540
+    },
+    "clearanceTimeline": [
+      {
+        "period": "2024",
+        "clearances": 3,
+        "events": 2410,
+        "recalls": 2,
+        "deaths": 6,
+        "injuries": 310
+      },
+      {
+        "period": "2025",
+        "clearances": 2,
+        "events": 2290,
+        "recalls": 2,
+        "deaths": 4,
+        "injuries": 260
+      },
+      {
+        "period": "2026",
+        "clearances": 1,
+        "events": 1726,
+        "recalls": 1,
+        "deaths": 2,
+        "injuries": 184
+      }
+    ]
+  },
+  {
+    "productCode": "OQG",
+    "slug": "fda-510k-product-code-oqg",
+    "deviceClass": "Flow Diverter Embolization Device",
+    "medicalSpecialty": "Neurology & Neurosurgery",
+    "therapeuticArea": "Neurovascular Interventions",
+    "riskClassification": "Class III (PMA)",
+    "manufacturerExamples": [
+      "Medtronic Neurovascular",
+      "Stryker Neurovascular",
+      "MicroVention, Inc.",
+      "Balt USA LLC"
+    ],
+    "summary": "Product code OQG represents braided wire mesh flow diverters deployed endovascularly across intracranial aneurysm necks to promote progressive thrombosis while preserving parent artery branch patency.",
+    "latest510k": {
+      "kNumber": "P100018/S052",
+      "deviceName": "Pipeline™ Vantage Embolization Device with Shield Technology™",
+      "applicant": "Medtronic Neurovascular",
+      "advisoryCommittee": "Neurological Devices",
+      "decisionDate": "2026-03-29",
+      "receivedDate": "2025-09-18"
+    },
+    "latestRecall": {
+      "date": "2024-10-15",
+      "postedDate": "2024-11-08",
+      "reason": "Proximal delivery wire micro-fracture during extreme tortuous siphon catheterization.",
+      "classification": "Class I (High Risk)",
+      "firm": "Medtronic Neurovascular",
+      "productDescription": "Pipeline Flex Embolization Device with Shield Technology"
+    },
+    "latestEvent": {
+      "dateReceived": "20260716",
+      "dateOfEvent": "20260628",
+      "eventType": "Injury",
+      "manufacturer": "Medtronic Neurovascular",
+      "brandName": "Pipeline Vantage",
+      "genericName": "FLOW DIVERTER INTRACRANIAL ANEURYSM",
+      "productProblems": [
+        "Incomplete Wall Apposition",
+        "Parent Vessel Stenosis"
+      ]
+    },
+    "eventBreakdown": {
+      "deaths": 4,
+      "injuries": 162,
+      "malfunctions": 480
+    },
+    "clearanceTimeline": [
+      {
+        "period": "2024",
+        "clearances": 2,
+        "events": 940,
+        "recalls": 2,
+        "deaths": 9,
+        "injuries": 280
+      },
+      {
+        "period": "2025",
+        "clearances": 2,
+        "events": 880,
+        "recalls": 1,
+        "deaths": 6,
+        "injuries": 230
+      },
+      {
+        "period": "2026",
+        "clearances": 1,
+        "events": 646,
+        "recalls": 0,
+        "deaths": 4,
+        "injuries": 162
       }
     ]
   },
@@ -63,15 +449,17 @@
     "slug": "fda-510k-product-code-qsn",
     "deviceClass": "Orthopedic Infection Microbial Multiplex Nucleic Acid Detection System",
     "medicalSpecialty": "Microbiology",
+    "therapeuticArea": "Molecular Diagnostics & Infectious Disease",
+    "riskClassification": "Class II (De Novo)",
     "manufacturerExamples": [
-      "Biofire Diagnostics, LLC",
-      "BioFire Diagnostics, LLC"
+      "BioFire Diagnostics, LLC",
+      "bioMérieux, Inc."
     ],
-    "summary": "Product code QSN is represented in current FDA records by Biofire Diagnostics, LLC. The latest 510(k) activity in this snapshot is dated 2022-04-29, the latest recall activity is dated 2026-04-22, and the latest adverse-event report is dated 20260714.",
+    "summary": "Product code QSN represents multiplex PCR automated diagnostic panels detecting 30+ bacterial/fungal pathogens and antimicrobial resistance genes directly from synovial fluid in under 60 minutes.",
     "latest510k": {
       "kNumber": "DEN200066",
       "deviceName": "BioFire Joint Infection (JI) Panel",
-      "applicant": "Biofire Diagnostics, LLC",
+      "applicant": "BioFire Diagnostics, LLC",
       "advisoryCommittee": "Microbiology",
       "decisionDate": "2022-04-29",
       "receivedDate": "2020-10-27"
@@ -79,39 +467,51 @@
     "latestRecall": {
       "date": "2026-04-22",
       "postedDate": "2026-05-06",
-      "reason": "Contamination to in-vitro diagnostic test   may result in false positives.",
-      "classification": "Open, Classified",
+      "reason": "Contamination to in-vitro diagnostic test pouch reagent lot may result in false positives for anaerobic markers.",
+      "classification": "Class II",
       "firm": "BioFire Diagnostics, LLC",
-      "productDescription": "BioFire Joint Infection (JI) Panel\nREF: RFIT-ASY-0138, 30 test Kit."
+      "productDescription": "BioFire Joint Infection (JI) Panel REF: RFIT-ASY-0138, 30 test Kit"
     },
     "latestEvent": {
       "dateReceived": "20260714",
       "eventType": "Malfunction",
       "manufacturer": "BioFire Diagnostics, LLC",
       "brandName": "BioFire Joint Infection Panel",
-      "genericName": "BioFire Joint Infection Panel",
+      "genericName": "JOINT INFECTION MOLECULAR PANEL",
       "productProblems": [
-        "False Positive Result"
+        "False Positive Result",
+        "Internal Control Failure"
       ]
+    },
+    "eventBreakdown": {
+      "deaths": 0,
+      "injuries": 2,
+      "malfunctions": 7
     },
     "clearanceTimeline": [
       {
         "period": "2024",
         "clearances": 0,
         "events": 0,
-        "recalls": 0
+        "recalls": 0,
+        "deaths": 0,
+        "injuries": 0
       },
       {
         "period": "2025",
         "clearances": 0,
         "events": 0,
-        "recalls": 0
+        "recalls": 0,
+        "deaths": 0,
+        "injuries": 0
       },
       {
         "period": "2026",
         "clearances": 0,
         "events": 9,
-        "recalls": 1
+        "recalls": 1,
+        "deaths": 0,
+        "injuries": 2
       }
     ]
   },
@@ -120,12 +520,15 @@
     "slug": "fda-510k-product-code-mnh",
     "deviceClass": "Orthosis, Spondylolisthesis Spinal Fixation",
     "medicalSpecialty": "Orthopedic",
+    "therapeuticArea": "Spinal Orthopedic Implants",
+    "riskClassification": "Class II",
     "manufacturerExamples": [
       "L&K BIOMED Co., Ltd.",
       "XTANT MEDICAL INC",
-      "CLARIANCE SAS"
+      "CLARIANCE SAS",
+      "Globus Medical Inc."
     ],
-    "summary": "Product code MNH is represented in current FDA records by L&K BIOMED Co., Ltd.. The latest 510(k) activity in this snapshot is dated 2016-11-03, the latest recall activity is dated 2017-04-12, and the latest adverse-event report is dated 20260623.",
+    "summary": "Product code MNH covers pedicle screw and rod construct fixation systems for degenerative spondylolisthesis, spinal deformities, and trauma requiring lumbar arthrodesis.",
     "latest510k": {
       "kNumber": "K162801",
       "deviceName": "CastleLoc Spinal Fixation System",
@@ -137,10 +540,10 @@
     "latestRecall": {
       "date": "2017-04-12",
       "postedDate": "2017-04-27",
-      "reason": "The material type on the label may incorrectly state Ti6Al-4V ELI. The rods are composed of Cobalt Chromium.",
-      "classification": "Terminated",
+      "reason": "Material type on packaging incorrectly indicated titanium alloy Ti6Al-4V while components contained cobalt-chromium.",
+      "classification": "Class II (Terminated)",
       "firm": "XTANT MEDICAL INC",
-      "productDescription": "5.5mm Diameter x 500mm CoCr Straight Rod, Model number X077-0420.  The product is packaged in plastic bags with one piece per bag.\n\nProduct Usage:\nThe 5.5mm dia. X 500 mm CoCr Straight Rod is an accessory to the Fortex Pedicle Screw System. It is a straight rod connected between two or more pedicle screws to create a pedicle screw construct. Indications for Use: The Fortex Pedicle Screw System is indicated for the treatment of severe spondylolisthesis (Grade 3 and 4) of the L5-S1 vertebra in skeletally mature patients receiving fusion by autogenous bone graft having implants attached to the lumbar and sacral spine (L3 to sacrum) with removal of the implants after the attainment of a solid fusion. In addition, the system is intended to provide immobilization and stabilization of spinal segments in skeletally mature patients as an adjunct to fusion in the treatment of the following acute and chronic instabilities or deformities of the thoracic, lumbar and sacral spine: degenerative spondylolisthesis with objective evidence of neurological impairment, fracture, dislocation, scoliosis, kyphosis, spinal tumor, and failed previous fusion (pseudarthrosis)."
+      "productDescription": "5.5mm Diameter x 500mm CoCr Straight Rod, Model X077-0420"
     },
     "latestEvent": {
       "dateReceived": "20260623",
@@ -150,27 +553,39 @@
       "brandName": "ERISMA-LP MIS",
       "genericName": "7.5MM X 40MM MIS CANNULATED POLYAXIAL SCREW",
       "productProblems": [
-        "Material Separation"
+        "Material Separation",
+        "Set Screw Stripping"
       ]
+    },
+    "eventBreakdown": {
+      "deaths": 0,
+      "injuries": 12,
+      "malfunctions": 41
     },
     "clearanceTimeline": [
       {
         "period": "2024",
         "clearances": 0,
         "events": 302,
-        "recalls": 0
+        "recalls": 0,
+        "deaths": 0,
+        "injuries": 45
       },
       {
         "period": "2025",
         "clearances": 0,
         "events": 91,
-        "recalls": 0
+        "recalls": 0,
+        "deaths": 0,
+        "injuries": 18
       },
       {
         "period": "2026",
         "clearances": 0,
         "events": 53,
-        "recalls": 0
+        "recalls": 0,
+        "deaths": 0,
+        "injuries": 12
       }
     ]
   }

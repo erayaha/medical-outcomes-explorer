@@ -8,10 +8,13 @@ export default function sitemap() {
   const staticRoutes = [
     "",
     "/hospitals",
-    "/outcomes-over-time",
-    "/interventions",
+    "/compare",
     "/devices-fda",
     "/adverse-events",
+    "/outcomes-over-time",
+    "/interventions",
+    "/clinical-trials",
+    "/research-api",
     "/methods-data",
     "/eia",
   ];
