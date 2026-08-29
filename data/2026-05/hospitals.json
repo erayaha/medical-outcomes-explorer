@@ -33,61 +33,61 @@
     ],
     "mortalityMeasures": [
       {
-        "measureId": "MORT_30_STK",
-        "measureName": "Death rate for stroke patients",
-        "score": 15.5,
-        "comparedToNational": "No Different Than the National Rate",
-        "denominator": 75,
-        "lowerEstimate": 11.6,
-        "higherEstimate": 19.9,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
-      },
-      {
         "measureId": "MORT_30_PN",
         "measureName": "Death rate for pneumonia patients",
-        "score": 15.4,
+        "score": 16.1,
         "comparedToNational": "No Different Than the National Rate",
-        "denominator": 46,
-        "lowerEstimate": 10.5,
-        "higherEstimate": 21.5,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "denominator": 52,
+        "lowerEstimate": 12.2,
+        "higherEstimate": 20.9,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "MORT_30_STK",
+        "measureName": "Death rate for stroke patients",
+        "score": 11.9,
+        "comparedToNational": "No Different Than the National Rate",
+        "denominator": 544,
+        "lowerEstimate": 8.7,
+        "higherEstimate": 15.8,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
       },
       {
         "measureId": "MORT_30_HF",
         "measureName": "Death rate for heart failure patients",
-        "score": 10.2,
+        "score": 11.1,
         "comparedToNational": "No Different Than the National Rate",
-        "denominator": 33,
-        "lowerEstimate": 6.4,
-        "higherEstimate": 15.7,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "denominator": 36,
+        "lowerEstimate": 8.1,
+        "higherEstimate": 15,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
       }
     ],
     "readmissionMeasures": [
       {
-        "measureId": "EDAC_30_HF",
-        "measureName": "Hospital return days for heart failure patients",
-        "score": -15.3,
-        "comparedToNational": "Average Days per 100 Discharges",
-        "denominator": 37,
-        "lowerEstimate": -44.7,
-        "higherEstimate": 22.3,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
-      },
-      {
         "measureId": "EDAC_30_PN",
         "measureName": "Hospital return days for pneumonia patients",
-        "score": -26.2,
+        "score": -37.4,
         "comparedToNational": "Average Days per 100 Discharges",
-        "denominator": 43,
-        "lowerEstimate": -49.1,
-        "higherEstimate": 4.3,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "denominator": 53,
+        "lowerEstimate": -67.3,
+        "higherEstimate": 5.9,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "EDAC_30_HF",
+        "measureName": "Hospital return days for heart failure patients",
+        "score": -46.4,
+        "comparedToNational": "Average Days per 100 Discharges",
+        "denominator": 40,
+        "lowerEstimate": -81.6,
+        "higherEstimate": 4.6,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
       },
       {
         "measureId": "EDAC_30_AMI",
@@ -97,8 +97,8 @@
         "denominator": null,
         "lowerEstimate": null,
         "higherEstimate": null,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
       }
     ],
     "complicationMeasures": [
@@ -202,8 +202,8 @@
       ]
     },
     "snapshotNotes": {
-      "mortalityWindow": "07/01/2021 to 06/30/2024",
-      "readmissionWindow": "07/01/2021 to 06/30/2024",
+      "mortalityWindow": "07/01/2022 to 06/30/2025",
+      "readmissionWindow": "07/01/2022 to 06/30/2025",
       "hrrpWindow": "07/01/2021 to 06/30/2024"
     }
   },
@@ -243,70 +243,70 @@
       {
         "measureId": "MORT_30_PN",
         "measureName": "Death rate for pneumonia patients",
-        "score": 8.8,
+        "score": 8,
         "comparedToNational": "Better Than the National Rate",
-        "denominator": 3489,
-        "lowerEstimate": 8.1,
-        "higherEstimate": 9.5,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "denominator": 4115,
+        "lowerEstimate": 5.4,
+        "higherEstimate": 11.4,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
       },
       {
         "measureId": "MORT_30_STK",
         "measureName": "Death rate for stroke patients",
-        "score": 8.1,
+        "score": 7.4,
         "comparedToNational": "Better Than the National Rate",
-        "denominator": 1039,
-        "lowerEstimate": 6.9,
-        "higherEstimate": 9.5,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "denominator": 1351,
+        "lowerEstimate": 5,
+        "higherEstimate": 11,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
       },
       {
         "measureId": "MORT_30_AMI",
         "measureName": "Death rate for heart attack patients",
         "score": 6.7,
         "comparedToNational": "Better Than the National Rate",
-        "denominator": 633,
-        "lowerEstimate": 5.5,
-        "higherEstimate": 8.2,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "denominator": 547,
+        "lowerEstimate": 4.8,
+        "higherEstimate": 9.2,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
       }
     ],
     "readmissionMeasures": [
       {
         "measureId": "EDAC_30_PN",
         "measureName": "Hospital return days for pneumonia patients",
-        "score": -5.6,
-        "comparedToNational": "Fewer Days Than Average per 100 Discharges",
-        "denominator": 3670,
-        "lowerEstimate": -10.1,
-        "higherEstimate": -1.3,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
-      },
-      {
-        "measureId": "EDAC_30_AMI",
-        "measureName": "Hospital return days for heart attack patients",
-        "score": -15.1,
-        "comparedToNational": "Fewer Days Than Average per 100 Discharges",
-        "denominator": 693,
-        "lowerEstimate": -22.6,
-        "higherEstimate": -7.1,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "score": -0.5,
+        "comparedToNational": "Average Days per 100 Discharges",
+        "denominator": 4338,
+        "lowerEstimate": -28.6,
+        "higherEstimate": 30.2,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
       },
       {
         "measureId": "EDAC_30_HF",
         "measureName": "Hospital return days for heart failure patients",
-        "score": -16.6,
-        "comparedToNational": "Fewer Days Than Average per 100 Discharges",
-        "denominator": 3232,
-        "lowerEstimate": -21.8,
-        "higherEstimate": -11.8,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "score": -22.8,
+        "comparedToNational": "Average Days per 100 Discharges",
+        "denominator": 3334,
+        "lowerEstimate": -54.4,
+        "higherEstimate": 14.9,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
+        "measureId": "EDAC_30_AMI",
+        "measureName": "Hospital return days for heart attack patients",
+        "score": -23.8,
+        "comparedToNational": "Average Days per 100 Discharges",
+        "denominator": 603,
+        "lowerEstimate": -58.5,
+        "higherEstimate": 26.5,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
       }
     ],
     "complicationMeasures": [
@@ -333,15 +333,15 @@
         "endDate": "06/30/2024"
       },
       {
-        "measureId": "PSI_12",
-        "measureName": "Perioperative pulmonary embolism or deep vein thrombosis rate",
-        "score": 2.66,
-        "comparedToNational": "Better Than the National Rate",
-        "denominator": 16112,
-        "lowerEstimate": 1.81,
-        "higherEstimate": 3.51,
-        "startDate": "07/01/2022",
-        "endDate": "06/30/2024"
+        "measureId": "COMP_HIP_KNEE",
+        "measureName": "Rate of complications for hip/knee replacement patients",
+        "score": 2.8,
+        "comparedToNational": "No Different Than the National Rate",
+        "denominator": 3298,
+        "lowerEstimate": 1.5,
+        "higherEstimate": 5.1,
+        "startDate": "04/01/2023",
+        "endDate": "03/31/2025"
       }
     ],
     "hrrpMeasure": {
@@ -410,8 +410,8 @@
       ]
     },
     "snapshotNotes": {
-      "mortalityWindow": "07/01/2021 to 06/30/2024",
-      "readmissionWindow": "07/01/2021 to 06/30/2024",
+      "mortalityWindow": "07/01/2022 to 06/30/2025",
+      "readmissionWindow": "07/01/2022 to 06/30/2025",
       "hrrpWindow": "07/01/2021 to 06/30/2024"
     }
   },
@@ -451,70 +451,70 @@
       {
         "measureId": "MORT_30_PN",
         "measureName": "Death rate for pneumonia patients",
-        "score": 11.3,
-        "comparedToNational": "Better Than the National Rate",
-        "denominator": 145,
+        "score": 11.7,
+        "comparedToNational": "No Different Than the National Rate",
+        "denominator": 144,
         "lowerEstimate": 8.4,
-        "higherEstimate": 14.9,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "higherEstimate": 15.8,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
       },
       {
         "measureId": "MORT_30_STK",
         "measureName": "Death rate for stroke patients",
-        "score": 11.1,
+        "score": 10.6,
         "comparedToNational": "No Different Than the National Rate",
-        "denominator": 171,
-        "lowerEstimate": 8.5,
-        "higherEstimate": 14,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "denominator": 411,
+        "lowerEstimate": 7.5,
+        "higherEstimate": 14.2,
+        "startDate": "07/01/2023",
+        "endDate": "06/30/2025"
       },
       {
         "measureId": "MORT_30_AMI",
         "measureName": "Death rate for heart attack patients",
-        "score": 10.5,
+        "score": 10.4,
         "comparedToNational": "No Different Than the National Rate",
-        "denominator": 112,
-        "lowerEstimate": 7.8,
-        "higherEstimate": 13.9,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "denominator": 104,
+        "lowerEstimate": 7.3,
+        "higherEstimate": 14,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
       }
     ],
     "readmissionMeasures": [
       {
+        "measureId": "EDAC_30_AMI",
+        "measureName": "Hospital return days for heart attack patients",
+        "score": 35,
+        "comparedToNational": "Average Days per 100 Discharges",
+        "denominator": 161,
+        "lowerEstimate": -16,
+        "higherEstimate": 128.4,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
+      },
+      {
         "measureId": "EDAC_30_PN",
         "measureName": "Hospital return days for pneumonia patients",
-        "score": 31.6,
-        "comparedToNational": "More Days Than Average per 100 Discharges",
-        "denominator": 159,
-        "lowerEstimate": 12.3,
-        "higherEstimate": 51.3,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "score": 9.6,
+        "comparedToNational": "Average Days per 100 Discharges",
+        "denominator": 155,
+        "lowerEstimate": -24.5,
+        "higherEstimate": 54.7,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
       },
       {
         "measureId": "EDAC_30_HF",
         "measureName": "Hospital return days for heart failure patients",
-        "score": 6.1,
+        "score": -15.1,
         "comparedToNational": "Average Days per 100 Discharges",
-        "denominator": 462,
-        "lowerEstimate": -5.3,
-        "higherEstimate": 18.1,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
-      },
-      {
-        "measureId": "EDAC_30_AMI",
-        "measureName": "Hospital return days for heart attack patients",
-        "score": 3.4,
-        "comparedToNational": "Average Days per 100 Discharges",
-        "denominator": 171,
-        "lowerEstimate": -11.4,
-        "higherEstimate": 19.6,
-        "startDate": "07/01/2021",
-        "endDate": "06/30/2024"
+        "denominator": 426,
+        "lowerEstimate": -51.8,
+        "higherEstimate": 31.4,
+        "startDate": "07/01/2022",
+        "endDate": "06/30/2025"
       }
     ],
     "complicationMeasures": [
@@ -618,8 +618,8 @@
       ]
     },
     "snapshotNotes": {
-      "mortalityWindow": "07/01/2021 to 06/30/2024",
-      "readmissionWindow": "07/01/2021 to 06/30/2024",
+      "mortalityWindow": "07/01/2022 to 06/30/2025",
+      "readmissionWindow": "07/01/2022 to 06/30/2025",
       "hrrpWindow": "07/01/2021 to 06/30/2024"
     }
   }

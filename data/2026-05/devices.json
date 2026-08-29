@@ -5,36 +5,35 @@
     "deviceClass": "Pump, Infusion",
     "medicalSpecialty": "General Hospital",
     "manufacturerExamples": [
-      "Koru Medical Systems, Inc.",
-      "CareFusion 303, Inc.",
-      "MEDTRONIC PUERTO RICO OPERATIONS CO."
+      "Deka R&D Corp",
+      "ICU Medical, Inc.",
+      "Medtronic Puerto Rico Operations Co."
     ],
-    "summary": "Product code FRN is represented in current FDA records by Koru Medical Systems, Inc.. The latest 510(k) activity in this snapshot is dated 2026-01-28, the latest recall activity is dated 2026-02-11, and the latest adverse-event report is dated 20260430.",
+    "summary": "Product code FRN is represented in current FDA records by Deka R&D Corp. The latest 510(k) activity in this snapshot is dated 2026-07-24, the latest recall activity is dated 2026-06-10, and the latest adverse-event report is dated 20260731.",
     "latest510k": {
-      "kNumber": "K252015",
-      "deviceName": "FreedomEdge Infusion System; High-Flo SubQ Needle Set; Precision Flow Rate Tubing",
-      "applicant": "Koru Medical Systems, Inc.",
+      "kNumber": "K253703",
+      "deviceName": "RemunityPRO+ Pump for Remodulin® (treprostinil) Injection",
+      "applicant": "Deka R&D Corp",
       "advisoryCommittee": "General Hospital",
-      "decisionDate": "2026-01-28",
-      "receivedDate": "2025-06-27"
+      "decisionDate": "2026-07-24",
+      "receivedDate": "2025-11-24"
     },
     "latestRecall": {
-      "date": "2026-02-11",
-      "postedDate": "2026-03-26",
-      "reason": "Due to product labeling not indicating which Transport Layer Security (TLS) version that must be enabled on hospital network to ensure secure Wi-Fi communication with Point-of-Care Units",
+      "date": "2026-06-10",
+      "postedDate": "2026-07-10",
+      "reason": "In a specific scenario, the pump will not decrement the Volume to be Infused (VTBI) displayed on the Delivery screen and may deliver up to twice the VTBI at the programmed rate.",
       "classification": "Open, Classified",
-      "firm": "CareFusion 303, Inc.",
-      "productDescription": "BD Alaris\" System with Guardrails\" Suite MX with Point of Care Unit"
+      "firm": "ICU Medical, Inc.",
+      "productDescription": "ICU Medical Plum Duo Infusion Pump, v1.2.3:  1) Item Number 400020401 and 2)  Item Number 400020403; infusion pump"
     },
     "latestEvent": {
-      "dateReceived": "20260430",
-      "dateOfEvent": "20260422",
+      "dateReceived": "20260731",
+      "dateOfEvent": "20260725",
       "eventType": "Malfunction",
-      "manufacturer": "MEDTRONIC PUERTO RICO OPERATIONS CO.",
-      "brandName": "RESERVOIR 3ML MMT-332A",
+      "manufacturer": "Medtronic Puerto Rico Operations Co.",
+      "brandName": "Reservoir 3ML MMT-332A",
       "genericName": "PUMP, INFUSION",
       "productProblems": [
-        "Fluid/Blood Leak",
         "Improper Flow or Infusion"
       ]
     },
@@ -47,15 +46,15 @@
       },
       {
         "period": "2025",
-        "clearances": 4,
-        "events": 53488,
+        "clearances": 5,
+        "events": 53486,
         "recalls": 40
       },
       {
         "period": "2026",
         "clearances": 0,
-        "events": 17539,
-        "recalls": 2
+        "events": 31017,
+        "recalls": 10
       }
     ]
   },
@@ -66,10 +65,9 @@
     "medicalSpecialty": "Microbiology",
     "manufacturerExamples": [
       "Biofire Diagnostics, LLC",
-      "BioFire Diagnostics, LLC",
-      "BIOFIRE DIAGNOSTICS, LLC"
+      "BioFire Diagnostics, LLC"
     ],
-    "summary": "Product code QSN is represented in current FDA records by Biofire Diagnostics, LLC. The latest 510(k) activity in this snapshot is dated 2022-04-29, the latest recall activity is dated 2026-04-22, and the latest adverse-event report is dated 20260401.",
+    "summary": "Product code QSN is represented in current FDA records by Biofire Diagnostics, LLC. The latest 510(k) activity in this snapshot is dated 2022-04-29, the latest recall activity is dated 2026-04-22, and the latest adverse-event report is dated 20260714.",
     "latest510k": {
       "kNumber": "DEN200066",
       "deviceName": "BioFire Joint Infection (JI) Panel",
@@ -87,12 +85,11 @@
       "productDescription": "BioFire Joint Infection (JI) Panel\nREF: RFIT-ASY-0138, 30 test Kit."
     },
     "latestEvent": {
-      "dateReceived": "20260401",
-      "dateOfEvent": "20251127",
+      "dateReceived": "20260714",
       "eventType": "Malfunction",
-      "manufacturer": "BIOFIRE DIAGNOSTICS, LLC",
-      "brandName": "BIOFIRE JOINT INFECTION PANEL",
-      "genericName": "BIOFIRE JOINT INFECTION PANEL",
+      "manufacturer": "BioFire Diagnostics, LLC",
+      "brandName": "BioFire Joint Infection Panel",
+      "genericName": "BioFire Joint Infection Panel",
       "productProblems": [
         "False Positive Result"
       ]
@@ -113,7 +110,7 @@
       {
         "period": "2026",
         "clearances": 0,
-        "events": 3,
+        "events": 9,
         "recalls": 1
       }
     ]
@@ -126,9 +123,9 @@
     "manufacturerExamples": [
       "L&K BIOMED Co., Ltd.",
       "XTANT MEDICAL INC",
-      "GLOBUS MEDICAL, INC."
+      "CLARIANCE SAS"
     ],
-    "summary": "Product code MNH is represented in current FDA records by L&K BIOMED Co., Ltd.. The latest 510(k) activity in this snapshot is dated 2016-11-03, the latest recall activity is dated 2017-04-12, and the latest adverse-event report is dated 20260427.",
+    "summary": "Product code MNH is represented in current FDA records by L&K BIOMED Co., Ltd.. The latest 510(k) activity in this snapshot is dated 2016-11-03, the latest recall activity is dated 2017-04-12, and the latest adverse-event report is dated 20260623.",
     "latest510k": {
       "kNumber": "K162801",
       "deviceName": "CastleLoc Spinal Fixation System",
@@ -146,21 +143,21 @@
       "productDescription": "5.5mm Diameter x 500mm CoCr Straight Rod, Model number X077-0420.  The product is packaged in plastic bags with one piece per bag.\n\nProduct Usage:\nThe 5.5mm dia. X 500 mm CoCr Straight Rod is an accessory to the Fortex Pedicle Screw System. It is a straight rod connected between two or more pedicle screws to create a pedicle screw construct. Indications for Use: The Fortex Pedicle Screw System is indicated for the treatment of severe spondylolisthesis (Grade 3 and 4) of the L5-S1 vertebra in skeletally mature patients receiving fusion by autogenous bone graft having implants attached to the lumbar and sacral spine (L3 to sacrum) with removal of the implants after the attainment of a solid fusion. In addition, the system is intended to provide immobilization and stabilization of spinal segments in skeletally mature patients as an adjunct to fusion in the treatment of the following acute and chronic instabilities or deformities of the thoracic, lumbar and sacral spine: degenerative spondylolisthesis with objective evidence of neurological impairment, fracture, dislocation, scoliosis, kyphosis, spinal tumor, and failed previous fusion (pseudarthrosis)."
     },
     "latestEvent": {
-      "dateReceived": "20260427",
-      "dateOfEvent": "20260101",
-      "eventType": "Injury",
-      "manufacturer": "GLOBUS MEDICAL, INC.",
-      "brandName": "REVERE",
-      "genericName": "TRANS-FACET-SCREW INTERNAL SPINAL FIXATION SYSTEM, STERILE",
+      "dateReceived": "20260623",
+      "dateOfEvent": "20260520",
+      "eventType": "Malfunction",
+      "manufacturer": "CLARIANCE SAS",
+      "brandName": "ERISMA-LP MIS",
+      "genericName": "7.5MM X 40MM MIS CANNULATED POLYAXIAL SCREW",
       "productProblems": [
-        "Fracture"
+        "Material Separation"
       ]
     },
     "clearanceTimeline": [
       {
         "period": "2024",
         "clearances": 0,
-        "events": 300,
+        "events": 302,
         "recalls": 0
       },
       {
@@ -172,7 +169,7 @@
       {
         "period": "2026",
         "clearances": 0,
-        "events": 38,
+        "events": 53,
         "recalls": 0
       }
     ]

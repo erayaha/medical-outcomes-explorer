@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T07:26:08.965Z",
+  "generatedAt": "2026-08-29T06:35:38.260Z",
   "warnings": [],
   "cmsSample": [
     {
@@ -28,7 +28,7 @@
     {
       "referenceCode": "FRN",
       "deviceClass": "Pump, Infusion",
-      "latest510k": "K252015",
+      "latest510k": "K253703",
       "source": "live"
     },
     {
