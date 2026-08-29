@@ -1,0 +1,11 @@
+{
+  "name": "medical-outcomes-explorer",
+  "description": "AI agent tools, discovery catalogs, and MCP server endpoints for Medical Outcomes Explorer.",
+  "mcp_server": "https://erayaha.github.io/medical-outcomes-explorer/.well-known/mcp/server-card.json",
+  "llms_txt": "https://erayaha.github.io/medical-outcomes-explorer/llms.txt",
+  "documentation": "https://erayaha.github.io/medical-outcomes-explorer/",
+  "publisher": {
+    "name": "Erayaha",
+    "url": "https://github.com/erayaha"
+  }
+}

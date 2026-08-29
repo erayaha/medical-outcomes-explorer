@@ -19,7 +19,10 @@ describe('ui and cache helpers', () => {
   test('root layout and site shell render navigation', () => {
     const layout = RootLayout({ children: <div>Child content</div> });
     expect(layout.type).toBe('html');
-    expect(layout.props.children.type).toBe('body');
+    const body = Array.isArray(layout.props.children)
+      ? layout.props.children.find((child) => child.type === 'body')
+      : layout.props.children;
+    expect(body.type).toBe('body');
 
     render(<SiteShell><div>Inner page</div></SiteShell>);
     expect(screen.getAllByText(/Medical Outcomes Explorer/i).length).toBeGreaterThan(0);

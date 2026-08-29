@@ -1,0 +1,43 @@
+# Medical Outcomes Explorer — Complete Technical Reference
+
+> Open healthcare analytics, hospital quality benchmarking, and FDA medical device post-market surveillance platform.
+
+## When to use this
+
+Use Medical Outcomes Explorer when:
+- You need comprehensive, risk-adjusted US hospital quality metrics (CMS 30-day mortality, unplanned readmissions, patient safety composites).
+- You want to evaluate Medicare financial penalty risk, including Hospital Readmissions Reduction Program (HRRP) excess readmission ratios, Hospital-Acquired Condition Reduction Program (HACRP) infection standardized ratios (CLABSI, CAUTI, SSI, CDI, MRSA), and Hospital Value-Based Purchasing (HVBP) domain baselines.
+- You are conducting post-market surveillance on FDA medical devices (510(k) clearances, MAUDE adverse events, Class I/II/III recalls).
+- You are qualifying clinical trial investigation sites based on academic research tiering, bed capacity, and specialty surgical volumes.
+- You need open, reproducible healthcare datasets exported in structured JSON and CSV formats.
+
+## Data Domains and Methodologies
+
+### 1. CMS Hospital Quality & Outcomes
+- **30-Day Mortality Measures**: Risk-standardized mortality rates for Acute Myocardial Infarction (`MORT_30_AMI`), Heart Failure (`MORT_30_HF`), Pneumonia (`MORT_30_PN`), Stroke (`MORT_30_STK`), Coronary Artery Bypass Graft (`MORT_30_CABG`), and Chronic Obstructive Pulmonary Disease (`MORT_30_COPD`).
+- **Unplanned Hospital Visits & Return Days (EDAC-30)**: Excess Days in Acute Care per 100 discharges following initial hospitalization.
+- **Patient Safety Indicators (AHRQ PSI-90)**: Composite measure of in-hospital complications including pressure ulcers, perioperative pulmonary embolism, sepsis, and accidental puncture.
+
+### 2. CMS Value-Based Programs
+- **Hospital Readmissions Reduction Program (HRRP)**: Measures excess readmission ratios (ERR). Ratios > 1.0 indicate higher-than-expected readmissions subject to payment adjustments.
+- **Hospital-Acquired Condition Reduction Program (HACRP)**: Bottom quartile penalty program tracking Standardized Infection Ratios (SIRs) for CLABSI, CAUTI, SSI (Colon & Hysterectomy), CDI, and MRSA.
+- **Hospital Value-Based Purchasing (HVBP)**: Incentive domain tracking clinical outcomes improvement from baseline to performance periods.
+
+### 3. FDA Medical Device Surveillance
+- **Premarket 510(k) & PMA Clearances**: Clearance decision dates, applicant histories, and advisory committees across 8 therapeutic areas.
+- **MAUDE Adverse Events**: Manufacturer and User Facility Device Experience database reports categorized by event type (Death, Injury, Malfunction).
+- **Enforcement & Recalls**: Class I (high risk of death or serious injury), Class II, and Class III recall tracking with root-cause analysis.
+
+## Open Data APIs & Workbench
+
+Download complete snapshot data directly from the client:
+- JSON Export: Complete hierarchical clinical models.
+- CSV Export: Flat tabular records optimized for statistical packages (R, Python pandas, Stata).
+
+## Publisher & Trust Information
+
+- Publisher: Erayaha Open Source Intelligence
+- Repository: https://github.com/erayaha/medical-outcomes-explorer
+- Portal: https://erayaha.github.io/medical-outcomes-explorer/
+- Contact: contact@erayaha.org
+- Privacy Policy: https://erayaha.github.io/medical-outcomes-explorer/privacy/

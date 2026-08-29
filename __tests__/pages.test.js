@@ -11,6 +11,9 @@ import DevicesPage from '@/app/devices-fda/page';
 import AdverseEventsPage from '@/app/adverse-events/page';
 import MethodsPage from '@/app/methods-data/page';
 import EIAPage from '@/app/eia/page';
+import AboutPage from '@/app/about/page';
+import ContactPage from '@/app/contact/page';
+import PrivacyPage from '@/app/privacy/page';
 import HospitalDetailPage from '@/app/hospitals/[slug]/page';
 import DeviceDetailPage from '@/app/devices-fda/[productCode]/page';
 
@@ -40,6 +43,15 @@ describe('core pages', () => {
   test('research api page renders open data workbench', () => {
     render(<ResearchApiPage />);
     expect(screen.getByRole('heading', { name: /Open Research Data Workbench & API Catalog/i })).toBeInTheDocument();
+  });
+
+  test('about, contact, and privacy trust anchor pages render', () => {
+    render(<AboutPage />);
+    expect(screen.getByRole('heading', { name: /About Medical Outcomes Explorer/i })).toBeInTheDocument();
+    render(<ContactPage />);
+    expect(screen.getByRole('heading', { name: /Contact & Technical Support/i })).toBeInTheDocument();
+    render(<PrivacyPage />);
+    expect(screen.getByRole('heading', { name: /Privacy Policy & Data Ethics/i })).toBeInTheDocument();
   });
 
   test('hospitals page renders tracked provider content', () => {

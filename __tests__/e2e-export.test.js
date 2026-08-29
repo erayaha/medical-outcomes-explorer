@@ -44,10 +44,15 @@ describe('Static Export E2E Integrity', () => {
     'devices-fda/QSN/index.html',
     'devices-fda/MNH/index.html',
     'adverse-events/index.html',
+    'about/index.html',
+    'contact/index.html',
+    'privacy/index.html',
     'methods-data/index.html',
     'eia/index.html',
     'sitemap.xml',
     'robots.txt',
+    'llms.txt',
+    '.nojekyll',
   ];
 
   test.each(expectedRoutes)('generates valid static file for %s', (relativePath) => {

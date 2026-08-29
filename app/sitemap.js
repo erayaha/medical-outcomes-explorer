@@ -15,6 +15,9 @@ export default function sitemap() {
     "/interventions",
     "/clinical-trials",
     "/research-api",
+    "/about",
+    "/contact",
+    "/privacy",
     "/methods-data",
     "/eia",
   ];

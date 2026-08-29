@@ -1,0 +1,41 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/server-card.json",
+  "name": "medical-outcomes-explorer",
+  "description": "Healthcare intelligence platform providing CMS hospital quality measures and FDA medical device post-market surveillance.",
+  "homepage": "https://erayaha.github.io/medical-outcomes-explorer/",
+  "repository": "https://github.com/erayaha/medical-outcomes-explorer",
+  "publisher": {
+    "name": "Erayaha",
+    "url": "https://github.com/erayaha"
+  },
+  "tools": [
+    {
+      "name": "get_hospital_quality",
+      "description": "Retrieves clinical quality measures, mortality, HRRP readmission penalty ratios, and infection SIRs for a US hospital.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "providerId": {
+            "type": "string",
+            "description": "CMS 6-digit facility ID"
+          }
+        },
+        "required": ["providerId"]
+      }
+    },
+    {
+      "name": "get_device_surveillance",
+      "description": "Retrieves 510(k) clearances, MAUDE adverse events, and recall classifications for an FDA medical device product code.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "productCode": {
+            "type": "string",
+            "description": "FDA 3-letter product code (e.g. FRN, NIQ, NVN)"
+          }
+        },
+        "required": ["productCode"]
+      }
+    }
+  ]
+}
